@@ -1,0 +1,2204 @@
+{
+    "GeoInfo": {
+        "ActivityCount": 59178,
+        "Breadcrumbs": [
+            {
+                "Name": "USA",
+                "Slug": "usa",
+                "Type": "country",
+                "Display": ["usa"],
+                "LocationID": "201"
+            }
+        ],
+        "Center": {
+            "Coordinates": [-115.74181, 46.394012],
+            "Type": "Point"
+        },
+        "Country": "USA",
+        "CountryCode": "US",
+        "Display": ["usa"],
+        "GooglePlaceId": "ChIJCzYy5IS16lQRQrfeQ5K5Oxw",
+        "LocationID": "201",
+        "Lat": "46.394012",
+        "Lng": "-115.74181",
+        "LocationSlug": "usa",
+        "LocationType": "country",
+        "PropertyCount": 304166,
+        "ShortName": "USA",
+        "Name": "USA",
+        "StateAbbr": "US",
+        "RadiusInKm": 5048.29,
+        "Neighborhood": {},
+        "Ancestors": ["500001", "201", "214", "553248635976430577", "6102041"],
+        "TypeLevel": 1,
+        "HgLocationId": "5460aeac1d0f1",
+        "SlugList": {
+            "en": "usa",
+            "es": "usa"
+        }
+    },
+    "Result": {
+        "Count": 10000,
+        "Items": [
+            {
+                "ID": "BC-9044980",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "North Carolina",
+                            "Slug": "usa/north-carolina",
+                            "Type": "state",
+                            "Display": ["usa", "north-carolina"]
+                        },
+                        {
+                            "Name": "Charlotte",
+                            "Slug": "usa/north-carolina/charlotte",
+                            "Type": "city",
+                            "Display": ["usa", "north-carolina", "charlotte"]
+                        }
+                    ],
+                    "City": "Charlotte",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Charlotte, North Carolina, USA",
+                    "LocationID": "178247",
+                    "Lat": "35.217574",
+                    "Lng": "-80.733893"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "2": "Balcony/Terrace",
+                        "5": "Child Friendly"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "2",
+                            "Name": "Balcony/Terrace"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        }
+                    ],
+                    "CachePrice": 4,
+                    "Counts": {
+                        "Bedroom": 3,
+                        "Bathroom": 2,
+                        "Occupancy": 6
+                    },
+                    "FeatureImage": "beautiful-family-home-us-charlotte-bc-9044980-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 4,
+                    "PropertyName": "Beautiful family home",
+                    "PropertySlug": "beautiful-family-home",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScores": {},
+                    "RoomSize": 1603.82,
+                    "UpdatedAt": "2026-01-06T07:44:45.354154+00:00"
+                },
+                "Partner": {
+                    "ID": "9044980",
+                    "CacheURL": "https://www.booking.com/hotel/us/beautiful-family-home-charlotte.html?aid=affiliate_id",
+                    "PropertyType": "Holiday Homes",
+                    "URL": "https://www.booking.com/hotel/us/beautiful-family-home-charlotte.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-16099845",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Maryland",
+                            "Slug": "usa/maryland",
+                            "Type": "state",
+                            "Display": ["usa", "maryland"]
+                        },
+                        {
+                            "Name": "College Park",
+                            "Slug": "usa/maryland/college-park",
+                            "Type": "city",
+                            "Display": ["usa", "maryland", "college-park"]
+                        },
+                        {
+                            "Name": "Silver Spring",
+                            "Slug": "usa/maryland/silver-spring",
+                            "Type": "city",
+                            "Display": ["usa", "maryland", "silver-spring"]
+                        }
+                    ],
+                    "City": "Silver Spring",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Silver Spring, Maryland, USA",
+                    "LocationID": "6891",
+                    "Lat": "39.001516",
+                    "Lng": "-77.004266",
+                    "DistanceFromCenter": "2.16 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        }
+                    ],
+                    "CachePrice": 4.5,
+                    "Counts": {
+                        "Bedroom": 4,
+                        "Bathroom": 3,
+                        "Reviews": 1,
+                        "Occupancy": 7
+                    },
+                    "FeatureImage": "de-luxe-suite-with-us-silver-spring-bc-16099845-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 4.5,
+                    "PropertyName": "De Luxe Suite with King Size Bed",
+                    "PropertySlug": "de-luxe-suite-with-king-size-bed",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScore": 10,
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-05-04T04:20:09.613555+00:00",
+                    "PropertyAttribute": "Family Friendly",
+                    "PropertyHighlights": ["New Property"],
+                    "PropertyHighlight": "New Property",
+                    "PropertyHighlightID": "8"
+                },
+                "Partner": {
+                    "ID": "16099845",
+                    "CacheURL": "https://www.booking.com/hotel/us/suite-with-king-size-bed-silver-spring.html?aid=affiliate_id",
+                    "PropertyType": "Guest Houses",
+                    "URL": "https://www.booking.com/hotel/us/suite-with-king-size-bed-silver-spring.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-4365983",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Illinois",
+                            "Slug": "usa/illinois",
+                            "Type": "state",
+                            "Display": ["usa", "illinois"]
+                        },
+                        {
+                            "Name": "Chicago",
+                            "Slug": "usa/illinois/chicago/178248",
+                            "Type": "city",
+                            "Display": ["usa", "illinois", "chicago", "178248"]
+                        },
+                        {
+                            "Name": "East Garfield Park",
+                            "Slug": "usa/illinois/chicago/east-garfield-park",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "illinois", "chicago", "east-garfield-park"]
+                        }
+                    ],
+                    "City": "Chicago",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "East Garfield Park, Chicago, Illinois, USA",
+                    "LocationID": "6132269",
+                    "Lat": "41.872872",
+                    "Lng": "-87.714152"
+                },
+                "Property": {
+                    "Amenities": {
+                        "10": "Parking",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        }
+                    ],
+                    "CachePrice": 7,
+                    "Counts": {
+                        "Bedroom": 9,
+                        "Bathroom": 27,
+                        "Reviews": 193,
+                        "Occupancy": 23
+                    },
+                    "FeatureImage": "homan-square-us-chicago-bc-4365983-0.jpg",
+                    "Image": {},
+                    "Price": 7,
+                    "PropertyName": "Homan Square",
+                    "PropertySlug": "homan-square",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScore": 3,
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-01-05T20:18:06.746720+00:00"
+                },
+                "Partner": {
+                    "ID": "4365983",
+                    "CacheURL": "https://www.booking.com/hotel/us/homan-square.html?aid=affiliate_id",
+                    "PropertyType": "Homestays",
+                    "URL": "https://www.booking.com/hotel/us/homan-square.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-11969340",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Chiefland",
+                            "Slug": "usa/florida/chiefland",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "chiefland"]
+                        }
+                    ],
+                    "City": "Chiefland",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Chiefland, Florida, USA",
+                    "LocationID": "6094701",
+                    "Lat": "29.412431",
+                    "Lng": "-82.935072"
+                },
+                "Property": {
+                    "Amenities": {
+                        "11": "Pet Friendly",
+                        "15": "View",
+                        "5": "Child Friendly"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "15",
+                            "Name": "View"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        }
+                    ],
+                    "CachePrice": 9,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Reviews": 1,
+                        "Occupancy": 15
+                    },
+                    "FeatureImage": "fanning-and-manatee-spr-us-chiefland-bc-11969340-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 9,
+                    "PropertyName": "Fanning and Manatee Springs Exclusive Primitive Campground",
+                    "PropertySlug": "fanning-and-manatee-springs-exclusive-primitive-campground",
+                    "PropertyType": "Other",
+                    "PropertyTypeCategoryId": "10",
+                    "ReviewScore": 1,
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-01-28T05:07:27.614358+00:00"
+                },
+                "Partner": {
+                    "ID": "11969340",
+                    "CacheURL": "https://www.booking.com/hotel/us/fanning-and-manatee-springs-exclusive-primitive-campground.html?aid=affiliate_id",
+                    "PropertyType": "Campsites",
+                    "URL": "https://www.booking.com/hotel/us/fanning-and-manatee-springs-exclusive-primitive-campground.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-11311669",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "New Mexico",
+                            "Slug": "usa/new-mexico",
+                            "Type": "state",
+                            "Display": ["usa", "new-mexico"]
+                        },
+                        {
+                            "Name": "Columbus",
+                            "Slug": "usa/new-mexico/columbus",
+                            "Type": "city",
+                            "Display": ["usa", "new-mexico", "columbus"]
+                        }
+                    ],
+                    "City": "Columbus",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Columbus, New Mexico, USA",
+                    "LocationID": "91634",
+                    "Lat": "31.841167",
+                    "Lng": "-107.660491",
+                    "DistanceFromCenter": "2.66 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "15": "View",
+                        "2": "Balcony/Terrace",
+                        "29": "Sports/Activities",
+                        "33": "Fireplace/Heating",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "2",
+                            "Name": "Balcony/Terrace"
+                        },
+                        {
+                            "ID": "15",
+                            "Name": "View"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        }
+                    ],
+                    "CachePrice": 9,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Reviews": 2,
+                        "Occupancy": 50
+                    },
+                    "FeatureImage": "hole-in-the-wall-getaway-us-columbus-bc-11311669-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 9,
+                    "PropertyName": "Hole in the Wall Getaway - USA Mexico Border Campsite",
+                    "PropertySlug": "hole-in-the-wall-getaway-usa-mexico-border-campsite",
+                    "PropertyType": "Other",
+                    "PropertyTypeCategoryId": "10",
+                    "ReviewScore": 9.5,
+                    "ReviewScores": {},
+                    "RoomSize": 9999.67,
+                    "UpdatedAt": "2026-04-10T05:11:34.171640+00:00",
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "11311669",
+                    "CacheURL": "https://www.booking.com/hotel/us/hole-in-the-wall-getaway-new-mexico-campsite.html?aid=affiliate_id",
+                    "PropertyType": "Campsites",
+                    "URL": "https://www.booking.com/hotel/us/hole-in-the-wall-getaway-new-mexico-campsite.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-191431",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Indiana",
+                            "Slug": "usa/indiana",
+                            "Type": "state",
+                            "Display": ["usa", "indiana"]
+                        },
+                        {
+                            "Name": "Kokomo",
+                            "Slug": "usa/indiana/kokomo",
+                            "Type": "city",
+                            "Display": ["usa", "indiana", "kokomo"]
+                        }
+                    ],
+                    "City": "Kokomo",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Kokomo, USA",
+                    "LocationID": "6059761",
+                    "Lat": "40.454684",
+                    "Lng": "-86.109729"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "13": "Designated Smoking Area",
+                        "14": "TV",
+                        "16": "Wheelchair Accessible",
+                        "17": "Private Pool",
+                        "24": "Accessibility",
+                        "26": "Security/Safety",
+                        "27": "EV Charge Station",
+                        "29": "Sports/Activities",
+                        "31": "Wellness Facilities",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "38": "Entertainment",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "8": "Kitchen",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "17",
+                            "Name": "Private Pool"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "8",
+                            "Name": "Kitchen"
+                        }
+                    ],
+                    "CachePrice": 10,
+                    "Counts": {
+                        "Bedroom": 59,
+                        "Bathroom": 5,
+                        "Reviews": 195,
+                        "Occupancy": 14
+                    },
+                    "EcoFriendly": true,
+                    "FeatureImage": "best-western-kokomo-hotel-us-kokomo-bc-191431-0.jpg",
+                    "Image": {},
+                    "Price": 10,
+                    "PropertyName": "Best Western Kokomo Hotel",
+                    "PropertySlug": "best-western-kokomo-hotel",
+                    "PropertyType": "Hotel",
+                    "PropertyTypeCategoryId": "5",
+                    "ReviewScore": 8.2,
+                    "ReviewScores": {},
+                    "RoomSize": 247.57,
+                    "StarRating": 3,
+                    "UpdatedAt": "2026-01-05T04:50:20.180836+00:00"
+                },
+                "Partner": {
+                    "ID": "191431",
+                    "CacheURL": "https://www.booking.com/hotel/us/fairfield-inn-by-marriott-kokomo.html?aid=affiliate_id",
+                    "PropertyType": "Hotels",
+                    "URL": "https://www.booking.com/hotel/us/fairfield-inn-by-marriott-kokomo.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-14410959",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "California",
+                            "Slug": "usa/california",
+                            "Type": "state",
+                            "Display": ["usa", "california"]
+                        },
+                        {
+                            "Name": "Eureka",
+                            "Slug": "usa/california/eureka",
+                            "Type": "city",
+                            "Display": ["usa", "california", "eureka"]
+                        },
+                        {
+                            "Name": "Cutten",
+                            "Slug": "usa/california/eureka/cutten",
+                            "Type": "city",
+                            "Display": ["usa", "california", "eureka", "cutten"]
+                        }
+                    ],
+                    "City": "Eureka",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Cutten, Eureka, California, USA",
+                    "LocationID": "3000343958",
+                    "Lat": "40.765333",
+                    "Lng": "-124.143453",
+                    "DistanceFromCenter": "0.48 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "10": "Parking",
+                        "26": "Security/Safety",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        },
+                        {
+                            "ID": "26",
+                            "Name": "Security/Safety"
+                        }
+                    ],
+                    "CachePrice": 10,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Reviews": 10,
+                        "Occupancy": 3
+                    },
+                    "FeatureImage": "centrally-located-adu-us-eureka-bc-14410959-0.jpg",
+                    "Image": {},
+                    "Price": 10,
+                    "PropertyName": "Centrally located adu",
+                    "PropertySlug": "centrally-located-adu",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScore": 8.2,
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-04-05T04:51:50.120260+00:00",
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "14410959",
+                    "CacheURL": "https://www.booking.com/hotel/us/centrally-located-adu.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/centrally-located-adu.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-5721977",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Miami",
+                            "Slug": "usa/florida/miami",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami"]
+                        },
+                        {
+                            "Name": "West Little River",
+                            "Slug": "usa/florida/miami/west-little-river",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami", "west-little-river"]
+                        }
+                    ],
+                    "City": "Miami",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Miami, FL, USA",
+                    "LocationID": "553248635975872136",
+                    "Lat": "25.862787",
+                    "Lng": "-80.238906",
+                    "DistanceFromCenter": "0.69 km"
+                },
+                "Property": {
+                    "AdultOnly": true,
+                    "Amenities": {
+                        "10": "Parking",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        }
+                    ],
+                    "CachePrice": 12,
+                    "Counts": {
+                        "Bedroom": 8,
+                        "Bathroom": 1,
+                        "Reviews": 443,
+                        "Occupancy": 12
+                    },
+                    "FeatureImage": "milusol-us-miami-bc-5721977-0.jpg",
+                    "Image": {},
+                    "Price": 12,
+                    "PropertyName": "MiLuSol",
+                    "PropertySlug": "milusol",
+                    "PropertyType": "Hostel",
+                    "PropertyTypeCategoryId": "4",
+                    "ReviewScore": 5.3,
+                    "ReviewScores": {},
+                    "RoomSize": 269.1,
+                    "UpdatedAt": "2026-05-02T06:26:15.466440+00:00",
+                    "PropertyAttribute": "Group Friendly"
+                },
+                "Partner": {
+                    "ID": "5721977",
+                    "CacheURL": "https://www.booking.com/hotel/us/milusol-hostel.html?aid=affiliate_id",
+                    "PropertyType": "Hostels",
+                    "URL": "https://www.booking.com/hotel/us/milusol-hostel.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-8931087",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Texas",
+                            "Slug": "usa/texas",
+                            "Type": "state",
+                            "Display": ["usa", "texas"]
+                        },
+                        {
+                            "Name": "Valentine",
+                            "Slug": "usa/texas/valentine",
+                            "Type": "city",
+                            "Display": ["usa", "texas", "valentine"]
+                        }
+                    ],
+                    "City": "Van Horn",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Valentine, Texas, USA",
+                    "LocationID": "553248634999184010",
+                    "Lat": "30.750296",
+                    "Lng": "-104.803131"
+                },
+                "Property": {
+                    "Amenities": {
+                        "11": "Pet Friendly",
+                        "15": "View",
+                        "29": "Sports/Activities",
+                        "3": "Bedding/Linens",
+                        "5": "Child Friendly"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "15",
+                            "Name": "View"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        },
+                        {
+                            "ID": "3",
+                            "Name": "Bedding/Linens"
+                        }
+                    ],
+                    "CachePrice": 14,
+                    "Counts": {
+                        "Bedroom": 150,
+                        "Bathroom": 2,
+                        "Occupancy": 8
+                    },
+                    "FeatureImage": "desert-gardens-oasis-camp-us-van-horn-bc-8931087-0.jpg",
+                    "Image": {},
+                    "IsStayAndPlay": true,
+                    "IsPetFriendly": true,
+                    "Price": 14,
+                    "PropertyName": "Desert Gardens Oasis Camping in Lobo, TX",
+                    "PropertySlug": "desert-gardens-oasis-camping-in-lobo-tx",
+                    "PropertyType": "Other",
+                    "PropertyTypeCategoryId": "10",
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-01-21T08:36:16.804188+00:00"
+                },
+                "Partner": {
+                    "ID": "8931087",
+                    "CacheURL": "https://www.booking.com/hotel/us/desert-gardens-oasis-camping-in-lobo-tx.html?aid=affiliate_id",
+                    "PropertyType": "Campsites",
+                    "URL": "https://www.booking.com/hotel/us/desert-gardens-oasis-camping-in-lobo-tx.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-6721451",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Kansas",
+                            "Slug": "usa/kansas",
+                            "Type": "state",
+                            "Display": ["usa", "kansas"]
+                        },
+                        {
+                            "Name": "Kansas City",
+                            "Slug": "usa/kansas/kansas-city",
+                            "Type": "city",
+                            "Display": ["usa", "kansas", "kansas-city"]
+                        },
+                        {
+                            "Name": "Overland Park",
+                            "Slug": "usa/kansas/overland-park",
+                            "Type": "city",
+                            "Display": ["usa", "kansas", "overland-park"]
+                        }
+                    ],
+                    "City": "Overland Park",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Overland Park, KS, USA",
+                    "LocationID": "9042",
+                    "Lat": "38.971008",
+                    "Lng": "-94.66354",
+                    "DistanceFromCenter": "1.61 km"
+                },
+                "Property": {
+                    "AdultOnly": true,
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        }
+                    ],
+                    "CachePrice": 15,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Reviews": 9,
+                        "Occupancy": 1
+                    },
+                    "FeatureImage": "comfy-room-us-overland-park-bc-6721451-0.jpg",
+                    "Image": {},
+                    "IsStayAndPlay": true,
+                    "Price": 15,
+                    "PropertyName": "Comfy Room",
+                    "PropertySlug": "comfy-room",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScore": 7,
+                    "ReviewScores": {},
+                    "RoomSize": 279.86,
+                    "UpdatedAt": "2026-04-02T07:09:10.606902+00:00"
+                },
+                "Partner": {
+                    "ID": "6721451",
+                    "CacheURL": "https://www.booking.com/hotel/us/furnished-room-overland-park.html?aid=affiliate_id",
+                    "PropertyType": "Homestays",
+                    "URL": "https://www.booking.com/hotel/us/furnished-room-overland-park.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-5573225",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Seybold",
+                            "Slug": "usa/florida/seybold",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "seybold"]
+                        }
+                    ],
+                    "City": "Miami",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Miami, FL, USA",
+                    "LocationID": "634136139104201078",
+                    "Lat": "25.813147",
+                    "Lng": "-80.23603",
+                    "DistanceFromCenter": "6.05 km"
+                },
+                "Property": {
+                    "AdultOnly": true,
+                    "Amenities": {
+                        "37": "Guest Services",
+                        "7": "Internet",
+                        "8": "Kitchen"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "8",
+                            "Name": "Kitchen"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        },
+                        {
+                            "ID": "37",
+                            "Name": "Guest Services"
+                        }
+                    ],
+                    "CachePrice": 15,
+                    "Counts": {
+                        "Bedroom": 16,
+                        "Bathroom": 1,
+                        "Reviews": 333,
+                        "Occupancy": 4
+                    },
+                    "FeatureImage": "miami-cheapest-place-us-miami-bc-5573225-0.jpg",
+                    "Image": {},
+                    "Price": 15,
+                    "PropertyName": "Miami Cheapest Place",
+                    "PropertySlug": "miami-cheapest-place",
+                    "PropertyType": "Hostel",
+                    "PropertyTypeCategoryId": "4",
+                    "ReviewScore": 4.7,
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-05-02T06:23:32.099960+00:00"
+                },
+                "Partner": {
+                    "ID": "5573225",
+                    "CacheURL": "https://www.booking.com/hotel/us/miami-cheapest-hostel.html?aid=affiliate_id",
+                    "PropertyType": "Hostels",
+                    "URL": "https://www.booking.com/hotel/us/miami-cheapest-hostel.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-9647581",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Oklahoma",
+                            "Slug": "usa/oklahoma",
+                            "Type": "state",
+                            "Display": ["usa", "oklahoma"]
+                        },
+                        {
+                            "Name": "Stillwater",
+                            "Slug": "usa/oklahoma/stillwater",
+                            "Type": "city",
+                            "Display": ["usa", "oklahoma", "stillwater"]
+                        }
+                    ],
+                    "City": "Stillwater",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Stillwater, OK, USA",
+                    "LocationID": "9957",
+                    "Lat": "36.117092",
+                    "Lng": "-97.126433"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "2": "Balcony/Terrace",
+                        "26": "Security/Safety",
+                        "31": "Wellness Facilities",
+                        "37": "Guest Services",
+                        "40": "Barbecue/Outdoor Cooking",
+                        "5": "Child Friendly",
+                        "6": "Hot Tub",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "6",
+                            "Name": "Hot Tub"
+                        },
+                        {
+                            "ID": "2",
+                            "Name": "Balcony/Terrace"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        }
+                    ],
+                    "CachePrice": 16,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Reviews": 33,
+                        "Occupancy": 5
+                    },
+                    "FeatureImage": "hotel-2-queen-beds-hote-us-stillwater-bc-9647581-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 16,
+                    "PropertyName": "Hotel 2 Queen Beds Hotel Room 131 Wi-Fi",
+                    "PropertySlug": "hotel-2-queen-beds-hotel-room-131-wi-fi",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScore": 7.5,
+                    "ReviewScores": {},
+                    "RoomSize": 355.21,
+                    "StarRating": 3,
+                    "UpdatedAt": "2026-01-01T05:18:40.645521+00:00"
+                },
+                "Partner": {
+                    "ID": "9647581",
+                    "CacheURL": "https://www.booking.com/hotel/us/osu-2q-ac-wi-fi-coffee-private-131-booking.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/osu-2q-ac-wi-fi-coffee-private-131-booking.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-10105544",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Miami",
+                            "Slug": "usa/florida/miami",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami"]
+                        },
+                        {
+                            "Name": "East Little Havana",
+                            "Slug": "usa/florida/miami/east-little-havana",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "florida", "miami", "east-little-havana"]
+                        }
+                    ],
+                    "City": "Miami",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "East Little Havana, Miami, Florida, USA",
+                    "LocationID": "553248635976473072",
+                    "Lat": "25.774506",
+                    "Lng": "-80.214539",
+                    "DistanceFromCenter": "0.32 km"
+                },
+                "Property": {
+                    "AdultOnly": true,
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "26": "Security/Safety",
+                        "28": "Business Services",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        }
+                    ],
+                    "CachePrice": 16.35,
+                    "Counts": {
+                        "Bedroom": 12,
+                        "Bathroom": 1,
+                        "Reviews": 195,
+                        "Occupancy": 2
+                    },
+                    "FeatureImage": "hola-hostel-open-24hr-free-us-miami-bc-10105544-0.jpg",
+                    "Image": {},
+                    "Price": 16.35,
+                    "PropertyName": "Hola Hostel - Open 24hr FREE DINNER - Under New Management",
+                    "PropertySlug": "hola-hostel-open-24hr-free-dinner-under-new-management",
+                    "PropertyType": "Hostel",
+                    "PropertyTypeCategoryId": "4",
+                    "ReviewScore": 4.6,
+                    "ReviewScores": {},
+                    "RoomSize": 5381.95,
+                    "UpdatedAt": "2026-05-01T06:07:14.420660+00:00",
+                    "PropertyAttribute": "Free Cancellation",
+                    "PropertyHighlights": ["Price Dropped"],
+                    "PropertyHighlight": "Price Dropped",
+                    "PropertyHighlightID": "5"
+                },
+                "Partner": {
+                    "ID": "10105544",
+                    "CacheURL": "https://www.booking.com/hotel/us/home-davenport1.html?aid=affiliate_id",
+                    "PropertyType": "Hostels",
+                    "URL": "https://www.booking.com/hotel/us/home-davenport1.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15409171",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Miami",
+                            "Slug": "usa/florida/miami",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami"]
+                        },
+                        {
+                            "Name": "Little Havana",
+                            "Slug": "usa/florida/miami/little-havana",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "florida", "miami", "little-havana"]
+                        }
+                    ],
+                    "City": "Miami",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Little Havana, Miami, Florida, USA",
+                    "LocationID": "505226",
+                    "Lat": "25.774964",
+                    "Lng": "-80.226794",
+                    "DistanceFromCenter": "0.66 km"
+                },
+                "Property": {
+                    "AdultOnly": true,
+                    "Amenities": {
+                        "10": "Parking",
+                        "15": "View",
+                        "26": "Security/Safety",
+                        "7": "Internet",
+                        "8": "Kitchen"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "15",
+                            "Name": "View"
+                        },
+                        {
+                            "ID": "8",
+                            "Name": "Kitchen"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        }
+                    ],
+                    "CachePrice": 18,
+                    "Counts": {
+                        "Bedroom": 11,
+                        "Bathroom": 1,
+                        "Reviews": 69,
+                        "Occupancy": 3
+                    },
+                    "FeatureImage": "peace-and-quiet-dorm-rooms-us-miami-bc-15409171-0.jpg",
+                    "Image": {},
+                    "Price": 18,
+                    "PropertyName": "Peace and Quiet Dorm Rooms - Free Breakfast DIY Waffles - Free Dinner - Free Coffee - Longterm Ok!",
+                    "PropertySlug": "peace-and-quiet-dorm-rooms-free-breakfast-diy-waffles-free-dinner-free-coffee-longterm-ok",
+                    "PropertyType": "Hostel",
+                    "PropertyTypeCategoryId": "4",
+                    "ReviewScore": 4.4,
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-04-16T03:53:22.001784+00:00",
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "15409171",
+                    "CacheURL": "https://www.booking.com/hotel/us/peace-and-quiet-dorm-rooms.html?aid=affiliate_id",
+                    "PropertyType": "Hostels",
+                    "URL": "https://www.booking.com/hotel/us/peace-and-quiet-dorm-rooms.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-6974794",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Oklahoma",
+                            "Slug": "usa/oklahoma",
+                            "Type": "state",
+                            "Display": ["usa", "oklahoma"]
+                        },
+                        {
+                            "Name": "Lawton",
+                            "Slug": "usa/oklahoma/lawton",
+                            "Type": "city",
+                            "Display": ["usa", "oklahoma", "lawton"]
+                        }
+                    ],
+                    "City": "Lawton",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "USA",
+                    "LocationID": "2010",
+                    "Lat": "34.636384",
+                    "Lng": "-98.423263"
+                },
+                "Property": {
+                    "AdultOnly": true,
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        }
+                    ],
+                    "CachePrice": 18,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Reviews": 4,
+                        "Occupancy": 4
+                    },
+                    "FeatureImage": "simple-1-bedroom-unit-upsta-us-lawton-bc-6974794-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 18,
+                    "PropertyName": "Simple 1-bedroom unit upstairs close to Fort Sill!",
+                    "PropertySlug": "simple-1-bedroom-unit-upstairs-close-to-fort-sill",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScore": 10,
+                    "ReviewScores": {},
+                    "RoomSize": 699.65,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-01-06T12:53:21.410979+00:00"
+                },
+                "Partner": {
+                    "ID": "6974794",
+                    "CacheURL": "https://www.booking.com/hotel/us/simple-1-bedroom-unit-upstairs-close-to-fort-sill.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/simple-1-bedroom-unit-upstairs-close-to-fort-sill.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15937722",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Delaware",
+                            "Slug": "usa/delaware",
+                            "Type": "state",
+                            "Display": ["usa", "delaware"]
+                        },
+                        {
+                            "Name": "Wilmington",
+                            "Slug": "usa/delaware/wilmington",
+                            "Type": "city",
+                            "Display": ["usa", "delaware", "wilmington"]
+                        },
+                        {
+                            "Name": "Downtown Wilmington",
+                            "Slug": "usa/delaware/wilmington/downtown-wilmington",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "delaware", "wilmington", "downtown-wilmington"]
+                        }
+                    ],
+                    "City": "Wilmington",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Downtown Wilmington, Wilmington, Delaware, USA",
+                    "LocationID": "6055683",
+                    "Lat": "39.745502",
+                    "Lng": "-75.548277",
+                    "DistanceFromCenter": "0.27 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "26": "Security/Safety",
+                        "5": "Child Friendly"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        },
+                        {
+                            "ID": "26",
+                            "Name": "Security/Safety"
+                        }
+                    ],
+                    "CachePrice": 18,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Occupancy": 2
+                    },
+                    "FeatureImage": "extraaps-us-wilmington-bc-15937722-0.jpg",
+                    "Image": {},
+                    "Price": 18,
+                    "PropertyName": "extraaps",
+                    "PropertySlug": "extraaps",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-03-10T06:22:15.073630+00:00",
+                    "PropertyAttribute": "Family Friendly"
+                },
+                "Partner": {
+                    "ID": "15937722",
+                    "CacheURL": "https://www.booking.com/hotel/us/extraaps.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/extraaps.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-6735811",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Oklahoma",
+                            "Slug": "usa/oklahoma",
+                            "Type": "state",
+                            "Display": ["usa", "oklahoma"]
+                        },
+                        {
+                            "Name": "Lawton",
+                            "Slug": "usa/oklahoma/lawton",
+                            "Type": "city",
+                            "Display": ["usa", "oklahoma", "lawton"]
+                        }
+                    ],
+                    "City": "Lawton",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "USA",
+                    "LocationID": "2010",
+                    "Lat": "34.636384",
+                    "Lng": "-98.423263",
+                    "DistanceFromCenter": "4.96 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        }
+                    ],
+                    "CachePrice": 18,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Reviews": 5,
+                        "Occupancy": 4
+                    },
+                    "FeatureImage": "downstairs-one-bedroom-clos-us-lawton-bc-6735811-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 18,
+                    "PropertyName": "Downstairs One Bedroom Close To Fort Sill!",
+                    "PropertySlug": "downstairs-one-bedroom-close-to-fort-sill",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScore": 8.4,
+                    "ReviewScores": {},
+                    "RoomSize": 699.65,
+                    "StarRating": 3,
+                    "UpdatedAt": "2026-04-05T05:37:30.688449+00:00",
+                    "PropertyAttribute": "Family Friendly"
+                },
+                "Partner": {
+                    "ID": "6735811",
+                    "CacheURL": "https://www.booking.com/hotel/us/upstairs-one-bedroom-close-to-fort-sill.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/upstairs-one-bedroom-close-to-fort-sill.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15626724",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Ohio",
+                            "Slug": "usa/ohio",
+                            "Type": "state",
+                            "Display": ["usa", "ohio"]
+                        },
+                        {
+                            "Name": "Cleveland",
+                            "Slug": "usa/ohio/cleveland",
+                            "Type": "city",
+                            "Display": ["usa", "ohio", "cleveland"]
+                        },
+                        {
+                            "Name": "Hough",
+                            "Slug": "usa/ohio/cleveland/hough",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "ohio", "cleveland", "hough"]
+                        }
+                    ],
+                    "City": "Cleveland",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Hough, Cleveland, Ohio, USA",
+                    "LocationID": "553248635976476248",
+                    "Lat": "41.510482",
+                    "Lng": "-81.619821",
+                    "DistanceFromCenter": "1.05 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "14": "TV",
+                        "24": "Accessibility",
+                        "26": "Security/Safety",
+                        "28": "Business Services",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "38": "Entertainment",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        }
+                    ],
+                    "CachePrice": 18.23,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Occupancy": 2
+                    },
+                    "FeatureImage": "studio-apartment-with-e-us-cleveland-bc-15626724-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 18.23,
+                    "PropertyName": "Studio apartment with easy access to the city",
+                    "PropertySlug": "studio-apartment-with-easy-access-to-the-city",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScores": {},
+                    "RoomSize": 592.02,
+                    "UpdatedAt": "2026-03-20T04:53:02.267684+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Family Friendly"
+                },
+                "Partner": {
+                    "ID": "15626724",
+                    "CacheURL": "https://www.booking.com/hotel/us/studio-apartment-with-easy-access-to-the-city.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/studio-apartment-with-easy-access-to-the-city.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-9647621",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Oklahoma",
+                            "Slug": "usa/oklahoma",
+                            "Type": "state",
+                            "Display": ["usa", "oklahoma"]
+                        },
+                        {
+                            "Name": "Stillwater",
+                            "Slug": "usa/oklahoma/stillwater",
+                            "Type": "city",
+                            "Display": ["usa", "oklahoma", "stillwater"]
+                        }
+                    ],
+                    "City": "Stillwater",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "OK, USA",
+                    "LocationID": "9957",
+                    "Lat": "36.117092",
+                    "Lng": "-97.126433",
+                    "DistanceFromCenter": "2.72 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "11": "Pet Friendly",
+                        "26": "Security/Safety",
+                        "37": "Guest Services",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        }
+                    ],
+                    "CachePrice": 19,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Reviews": 18,
+                        "Occupancy": 3
+                    },
+                    "EcoFriendly": true,
+                    "FeatureImage": "osu-queen-hotel-room-11-us-stillwater-bc-9647621-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 19,
+                    "PropertyName": "OSU Queen Hotel Room 118 Booking",
+                    "PropertySlug": "osu-queen-hotel-room-118-booking",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScore": 6.4,
+                    "ReviewScores": {},
+                    "RoomSize": 355.21,
+                    "StarRating": 3,
+                    "UpdatedAt": "2026-03-10T04:52:29.968980+00:00",
+                    "PropertyAttribute": "Family Friendly"
+                },
+                "Partner": {
+                    "ID": "9647621",
+                    "CacheURL": "https://www.booking.com/hotel/us/osu-king-ac-wi-fi-nice-118-booking.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/osu-king-ac-wi-fi-nice-118-booking.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-7623490",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Miami",
+                            "Slug": "usa/florida/miami",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami"]
+                        },
+                        {
+                            "Name": "West Little River",
+                            "Slug": "usa/florida/miami/west-little-river",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami", "west-little-river"]
+                        }
+                    ],
+                    "City": "Miami",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "West Little River, Miami, Florida, USA",
+                    "LocationID": "553248635975872136",
+                    "Lat": "25.862921",
+                    "Lng": "-80.238948"
+                },
+                "Property": {
+                    "AdultOnly": true,
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        }
+                    ],
+                    "CachePrice": 19,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Reviews": 22,
+                        "Occupancy": 1
+                    },
+                    "FeatureImage": "super-cheap-us-miami-bc-7623490-0.jpg",
+                    "Image": {},
+                    "Price": 19,
+                    "PropertyName": "Super cheap",
+                    "PropertySlug": "super-cheap",
+                    "PropertyType": "Bed \u0026 Breakfast",
+                    "PropertyTypeCategoryId": "2",
+                    "ReviewScore": 3.9,
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-01-06T10:02:01.094522+00:00"
+                },
+                "Partner": {
+                    "ID": "7623490",
+                    "CacheURL": "https://www.booking.com/hotel/us/super-cheap.html?aid=affiliate_id",
+                    "PropertyType": "Bed And Breakfasts",
+                    "URL": "https://www.booking.com/hotel/us/super-cheap.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-6518797",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Illinois",
+                            "Slug": "usa/illinois",
+                            "Type": "state",
+                            "Display": ["usa", "illinois"]
+                        },
+                        {
+                            "Name": "Chicago",
+                            "Slug": "usa/illinois/chicago/178248",
+                            "Type": "city",
+                            "Display": ["usa", "illinois", "chicago", "178248"]
+                        },
+                        {
+                            "Name": "Roseland",
+                            "Slug": "usa/illinois/chicago/roseland",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "illinois", "chicago", "roseland"]
+                        }
+                    ],
+                    "City": "Chicago",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Roseland, Chicago, Illinois, USA",
+                    "LocationID": "6132287",
+                    "Lat": "41.709135",
+                    "Lng": "-87.626861"
+                },
+                "Property": {
+                    "Amenities": {
+                        "10": "Parking",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        }
+                    ],
+                    "CachePrice": 19,
+                    "Counts": {
+                        "Bedroom": 16,
+                        "Bathroom": 1,
+                        "Reviews": 62,
+                        "Occupancy": 32
+                    },
+                    "FeatureImage": "lasalle-lodge-ii-us-chicago-bc-6518797-0.jpg",
+                    "Image": {},
+                    "Price": 19,
+                    "PropertyName": "LaSalle Lodge II",
+                    "PropertySlug": "lasalle-lodge-ii",
+                    "PropertyType": "Hostel",
+                    "PropertyTypeCategoryId": "4",
+                    "ReviewScore": 5.8,
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-01-06T07:09:09.517082+00:00"
+                },
+                "Partner": {
+                    "ID": "6518797",
+                    "CacheURL": "https://www.booking.com/hotel/us/lasalle-lodge-ii.html?aid=affiliate_id",
+                    "PropertyType": "Hostels",
+                    "URL": "https://www.booking.com/hotel/us/lasalle-lodge-ii.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-12630148",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Texas",
+                            "Slug": "usa/texas",
+                            "Type": "state",
+                            "Display": ["usa", "texas"]
+                        },
+                        {
+                            "Name": "Dallas",
+                            "Slug": "usa/texas/dallas",
+                            "Type": "city",
+                            "Display": ["usa", "texas", "dallas"]
+                        },
+                        {
+                            "Name": "Far North Dallas",
+                            "Slug": "usa/texas/dallas/far-north-dallas",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "texas", "dallas", "far-north-dallas"]
+                        }
+                    ],
+                    "City": "Dallas",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Far North Dallas, Dallas, Texas, USA",
+                    "LocationID": "553248635074843113",
+                    "Lat": "32.994394",
+                    "Lng": "-96.867041"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        }
+                    ],
+                    "CachePrice": 20,
+                    "Counts": {
+                        "Bedroom": 8,
+                        "Bathroom": 1,
+                        "Reviews": 1,
+                        "Occupancy": 2
+                    },
+                    "FeatureImage": "homestayy-us-dallas-bc-12630148-0.jpg",
+                    "Image": {},
+                    "Price": 20,
+                    "PropertyName": "Homestayy",
+                    "PropertySlug": "homestayy",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScore": 1,
+                    "ReviewScores": {},
+                    "RoomSize": 2152.78,
+                    "UpdatedAt": "2026-01-06T09:01:23.471787+00:00"
+                },
+                "Partner": {
+                    "ID": "12630148",
+                    "CacheURL": "https://www.booking.com/hotel/us/homestay-dallas.html?aid=affiliate_id",
+                    "PropertyType": "Homestays",
+                    "URL": "https://www.booking.com/hotel/us/homestay-dallas.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-12191566",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Texas",
+                            "Slug": "usa/texas",
+                            "Type": "state",
+                            "Display": ["usa", "texas"]
+                        },
+                        {
+                            "Name": "Dallas",
+                            "Slug": "usa/texas/dallas",
+                            "Type": "city",
+                            "Display": ["usa", "texas", "dallas"]
+                        },
+                        {
+                            "Name": "Far North Dallas",
+                            "Slug": "usa/texas/dallas/far-north-dallas",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "texas", "dallas", "far-north-dallas"]
+                        }
+                    ],
+                    "City": "Dallas",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Far North Dallas, Dallas, Texas, USA",
+                    "LocationID": "553248635074843113",
+                    "Lat": "32.994178",
+                    "Lng": "-96.867106",
+                    "DistanceFromCenter": "6.28 km"
+                },
+                "Property": {
+                    "AdultOnly": true,
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "13": "Designated Smoking Area",
+                        "15": "View",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "15",
+                            "Name": "View"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        }
+                    ],
+                    "CachePrice": 20,
+                    "Counts": {
+                        "Bedroom": 9,
+                        "Bathroom": 2,
+                        "Reviews": 19,
+                        "Occupancy": 4
+                    },
+                    "FeatureImage": "homestayyy-us-dallas-bc-12191566-0.jpg",
+                    "Image": {},
+                    "Price": 20,
+                    "PropertyName": "Homestayyy",
+                    "PropertySlug": "homestayyy",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScore": 6.7,
+                    "ReviewScores": {},
+                    "RoomSize": 2475.7,
+                    "UpdatedAt": "2026-03-28T18:12:26.332355+00:00"
+                },
+                "Partner": {
+                    "ID": "12191566",
+                    "CacheURL": "https://www.booking.com/hotel/us/hoangstay.html?aid=affiliate_id",
+                    "PropertyType": "Homestays",
+                    "URL": "https://www.booking.com/hotel/us/hoangstay.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-10869633",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Texas",
+                            "Slug": "usa/texas",
+                            "Type": "state",
+                            "Display": ["usa", "texas"]
+                        },
+                        {
+                            "Name": "Allamoore",
+                            "Slug": "usa/texas/allamoore",
+                            "Type": "city",
+                            "Display": ["usa", "texas", "allamoore"]
+                        }
+                    ],
+                    "City": "Van Horn",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Allamoore, Texas, USA",
+                    "LocationID": "553248635974899408",
+                    "Lat": "30.779262",
+                    "Lng": "-104.822569"
+                },
+                "Property": {
+                    "Amenities": {
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "16": "Wheelchair Accessible",
+                        "2": "Balcony/Terrace",
+                        "5": "Child Friendly",
+                        "6": "Hot Tub",
+                        "8": "Kitchen"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "6",
+                            "Name": "Hot Tub"
+                        },
+                        {
+                            "ID": "2",
+                            "Name": "Balcony/Terrace"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "8",
+                            "Name": "Kitchen"
+                        }
+                    ],
+                    "CachePrice": 20,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 2,
+                        "Reviews": 2,
+                        "Occupancy": 4
+                    },
+                    "FeatureImage": "desert-gardens-oasis-cam-us-van-horn-bc-10869633-0.jpg",
+                    "Image": {},
+                    "IsStayAndPlay": true,
+                    "IsPetFriendly": true,
+                    "Price": 20,
+                    "PropertyName": "Desert Gardens Oasis Campground",
+                    "PropertySlug": "desert-gardens-oasis-campground",
+                    "PropertyType": "Other",
+                    "PropertyTypeCategoryId": "10",
+                    "ReviewScore": 10,
+                    "ReviewScores": {},
+                    "RoomSize": 96.88,
+                    "UpdatedAt": "2026-01-21T08:36:48.667416+00:00"
+                },
+                "Partner": {
+                    "ID": "10869633",
+                    "CacheURL": "https://www.booking.com/hotel/us/desert-gardens-oasis-campground.html?aid=affiliate_id",
+                    "PropertyType": "Campsites",
+                    "URL": "https://www.booking.com/hotel/us/desert-gardens-oasis-campground.html?aid=affiliate_id"
+                }
+            }
+        ]
+    },
+    "Sts": {
+        "StsRoute": "ROW-\u003edefault-\u003edesktop",
+        "AllFeedRatio": {
+            "11": 100
+        }
+    },
+    "IsRealTimeAvailabilityFound": false,
+    "Success": true,
+    "ShowFallbackData": false
+}

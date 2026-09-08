@@ -1,0 +1,2392 @@
+{
+    "GeoInfo": {
+        "ActivityCount": 59178,
+        "Breadcrumbs": [
+            {
+                "Name": "USA",
+                "Slug": "usa",
+                "Type": "country",
+                "Display": ["usa"],
+                "LocationID": "201"
+            }
+        ],
+        "Center": {
+            "Coordinates": [-115.74181, 46.394012],
+            "Type": "Point"
+        },
+        "Country": "USA",
+        "CountryCode": "US",
+        "Display": ["usa"],
+        "GooglePlaceId": "ChIJCzYy5IS16lQRQrfeQ5K5Oxw",
+        "LocationID": "201",
+        "Lat": "46.394012",
+        "Lng": "-115.74181",
+        "LocationSlug": "usa",
+        "LocationType": "country",
+        "PropertyCount": 304166,
+        "ShortName": "USA",
+        "Name": "USA",
+        "StateAbbr": "US",
+        "RadiusInKm": 5048.29,
+        "Neighborhood": {},
+        "Ancestors": ["500001", "201", "214", "553248635976430577", "6102041"],
+        "TypeLevel": 1,
+        "HgLocationId": "5460aeac1d0f1",
+        "SlugList": {
+            "en": "usa",
+            "es": "usa"
+        }
+    },
+    "Result": {
+        "Count": 10000,
+        "Items": [
+            {
+                "ID": "BC-8748795",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Panama City",
+                            "Slug": "usa/florida/panama-city",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "panama-city"]
+                        },
+                        {
+                            "Name": "El Centro Beach",
+                            "Slug": "usa/florida/panama-city-beach/el-centro-beach",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "florida", "panama-city-beach", "el-centro-beach"]
+                        }
+                    ],
+                    "City": "Panama City",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "FL, USA",
+                    "LocationID": "553248635976474200",
+                    "Lat": "30.224107",
+                    "Lng": "-85.887897"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "5": "Child Friendly"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        }
+                    ],
+                    "CachePrice": 56792,
+                    "Counts": {
+                        "Bedroom": 2,
+                        "Bathroom": 2,
+                        "Occupancy": 6
+                    },
+                    "FeatureImage": "new-2-blocks-to-beach-us-panama-city-bc-8748795-0.jpg",
+                    "Image": {},
+                    "Price": 56792,
+                    "PropertyName": "NEW 2 Blocks to Beach, Casablanca",
+                    "PropertySlug": "new-2-blocks-to-beach-casablanca",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-01-06T07:39:13.648260+00:00"
+                },
+                "Partner": {
+                    "ID": "8748795",
+                    "CacheURL": "https://www.booking.com/hotel/us/new-2-blocks-to-beach-casablanca.html?aid=affiliate_id",
+                    "PropertyType": "Holiday Homes",
+                    "URL": "https://www.booking.com/hotel/us/new-2-blocks-to-beach-casablanca.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-14979747",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Arkansas",
+                            "Slug": "usa/arkansas",
+                            "Type": "state",
+                            "Display": ["usa", "arkansas"]
+                        },
+                        {
+                            "Name": "Hot Springs",
+                            "Slug": "usa/arkansas/hot-springs",
+                            "Type": "city",
+                            "Display": ["usa", "arkansas", "hot-springs"]
+                        },
+                        {
+                            "Name": "Hot Springs Village",
+                            "Slug": "usa/arkansas/hot-springs-village",
+                            "Type": "city",
+                            "Display": ["usa", "arkansas", "hot-springs-village"]
+                        }
+                    ],
+                    "City": "Hot Springs",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Hot Springs Village, Arkansas, USA",
+                    "LocationID": "6058640",
+                    "Lat": "34.67465",
+                    "Lng": "-92.98819"
+                },
+                "Property": {
+                    "AdultOnly": true,
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "11": "Pet Friendly",
+                        "12": "Pool",
+                        "2": "Balcony/Terrace",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "2",
+                            "Name": "Balcony/Terrace"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        }
+                    ],
+                    "CachePrice": 54332,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 44,
+                        "Occupancy": 43
+                    },
+                    "FeatureImage": "caleb-place-us-hot-springs-bc-14979747-0.jpg",
+                    "Image": {},
+                    "IsStayAndPlay": true,
+                    "IsPetFriendly": true,
+                    "Price": 54332,
+                    "PropertyName": "Caleb Place",
+                    "PropertySlug": "caleb-place",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-01-06T12:12:15.883758+00:00",
+                    "LongStayFriendlyHome": true
+                },
+                "Partner": {
+                    "ID": "14979747",
+                    "CacheURL": "https://www.booking.com/hotel/us/caleb-place.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/caleb-place.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-8374228",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "New York",
+                            "Slug": "usa/new-york",
+                            "Type": "state",
+                            "Display": ["usa", "new-york"]
+                        },
+                        {
+                            "Name": "Newtonville",
+                            "Slug": "usa/new-york/newtonville",
+                            "Type": "city",
+                            "Display": ["usa", "new-york", "newtonville"]
+                        }
+                    ],
+                    "City": "Troy",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Troy, NY, USA",
+                    "LocationID": "634136139104201201",
+                    "Lat": "42.772798",
+                    "Lng": "-73.675995",
+                    "DistanceFromCenter": "8.58 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "24": "Accessibility",
+                        "26": "Security/Safety",
+                        "31": "Wellness Facilities",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "38": "Entertainment",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        }
+                    ],
+                    "CachePrice": 51117.33,
+                    "Counts": {
+                        "Bedroom": 2,
+                        "Bathroom": 1,
+                        "Reviews": 3,
+                        "Occupancy": 5
+                    },
+                    "FeatureImage": "a-luxurious-5-star-location-2-us-troy-bc-8374228-0.jpg",
+                    "Image": {},
+                    "Price": 51117.33,
+                    "PropertyName": "A Luxurious 5 star Location 2 QUEEN Bed’s TROY",
+                    "PropertySlug": "a-luxurious-5-star-location-2-queen-beds-troy",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScore": 9.3,
+                    "ReviewScores": {},
+                    "RoomSize": 1496.18,
+                    "StarRating": 3,
+                    "UpdatedAt": "2026-03-01T03:11:59.795467+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Family Friendly"
+                },
+                "Partner": {
+                    "ID": "8374228",
+                    "CacheURL": "https://www.booking.com/hotel/us/a-luxurious-5-star-location-2-queen-beds-troy.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/a-luxurious-5-star-location-2-queen-beds-troy.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-8252067",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Ohio",
+                            "Slug": "usa/ohio",
+                            "Type": "state",
+                            "Display": ["usa", "ohio"]
+                        },
+                        {
+                            "Name": "Cleveland",
+                            "Slug": "usa/ohio/cleveland",
+                            "Type": "city",
+                            "Display": ["usa", "ohio", "cleveland"]
+                        },
+                        {
+                            "Name": "Elyria",
+                            "Slug": "usa/ohio/elyria",
+                            "Type": "city",
+                            "Display": ["usa", "ohio", "elyria"]
+                        }
+                    ],
+                    "City": "Elyria",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "OH, USA",
+                    "LocationID": "7842",
+                    "Lat": "41.336786",
+                    "Lng": "-82.150986"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "2": "Balcony/Terrace",
+                        "4": "Breakfast",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "8": "Kitchen"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "2",
+                            "Name": "Balcony/Terrace"
+                        },
+                        {
+                            "ID": "4",
+                            "Name": "Breakfast"
+                        },
+                        {
+                            "ID": "8",
+                            "Name": "Kitchen"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        }
+                    ],
+                    "CachePrice": 50000,
+                    "Counts": {
+                        "Bedroom": 3,
+                        "Bathroom": 2,
+                        "Occupancy": 10
+                    },
+                    "EcoFriendly": true,
+                    "FeatureImage": "welcome-to-our-sweet-little-us-elyria-bc-8252067-0.jpg",
+                    "Image": {},
+                    "Price": 50000,
+                    "PropertyName": "Welcome to our Sweet Little Retreat!",
+                    "PropertySlug": "welcome-to-our-sweet-little-retreat",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScores": {},
+                    "RoomSize": 10763.91,
+                    "StarRating": 3,
+                    "UpdatedAt": "2026-01-06T00:23:17.906572+00:00"
+                },
+                "Partner": {
+                    "ID": "8252067",
+                    "CacheURL": "https://www.booking.com/hotel/us/welcome-to-our-sweet-little-retreat.html?aid=affiliate_id",
+                    "PropertyType": "Holiday Homes",
+                    "URL": "https://www.booking.com/hotel/us/welcome-to-our-sweet-little-retreat.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-16234840",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Michigan",
+                            "Slug": "usa/michigan",
+                            "Type": "state",
+                            "Display": ["usa", "michigan"]
+                        },
+                        {
+                            "Name": "Traverse City",
+                            "Slug": "usa/michigan/traverse-city",
+                            "Type": "city",
+                            "Display": ["usa", "michigan", "traverse-city"]
+                        },
+                        {
+                            "Name": "Rapid City",
+                            "Slug": "usa/michigan/rapid-city",
+                            "Type": "city",
+                            "Display": ["usa", "michigan", "rapid-city"]
+                        }
+                    ],
+                    "City": "Rapid City",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Rapid City, Michigan, USA",
+                    "LocationID": "6340117",
+                    "Lat": "44.849081",
+                    "Lng": "-85.331178",
+                    "DistanceFromCenter": "4.49 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "26": "Security/Safety",
+                        "31": "Wellness Facilities",
+                        "5": "Child Friendly",
+                        "6": "Hot Tub",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "6",
+                            "Name": "Hot Tub"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        }
+                    ],
+                    "CachePrice": 50000,
+                    "Counts": {
+                        "Bedroom": 20,
+                        "Bathroom": 3,
+                        "Occupancy": 12
+                    },
+                    "FeatureImage": "the-sandbar-lodge-at-t-us-rapid-city-bc-16234840-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 50000,
+                    "PropertyName": "The Sandbar Lodge at Torch Lake",
+                    "PropertySlug": "the-sandbar-lodge-at-torch-lake",
+                    "PropertyType": "Hotel",
+                    "PropertyTypeCategoryId": "5",
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-04-27T06:04:52.764184+00:00",
+                    "PropertyAttribute": "Free Cancellation",
+                    "PropertyHighlights": ["New Property"],
+                    "PropertyHighlight": "New Property",
+                    "PropertyHighlightID": "8"
+                },
+                "Partner": {
+                    "ID": "16234840",
+                    "CacheURL": "https://www.booking.com/hotel/us/the-sandbar-lodge-at-torch-lake.html?aid=affiliate_id",
+                    "PropertyType": "Hotels",
+                    "URL": "https://www.booking.com/hotel/us/the-sandbar-lodge-at-torch-lake.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15645503",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Michigan",
+                            "Slug": "usa/michigan",
+                            "Type": "state",
+                            "Display": ["usa", "michigan"]
+                        },
+                        {
+                            "Name": "Lansing",
+                            "Slug": "usa/michigan/lansing",
+                            "Type": "city",
+                            "Display": ["usa", "michigan", "lansing"]
+                        }
+                    ],
+                    "City": "Lansing",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Lansing, Michigan, USA",
+                    "LocationID": "603006",
+                    "Lat": "42.660664",
+                    "Lng": "-84.539072",
+                    "DistanceFromCenter": "8.19 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "26": "Security/Safety",
+                        "27": "EV Charge Station",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        }
+                    ],
+                    "CachePrice": 45045,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Occupancy": 2
+                    },
+                    "FeatureImage": "studio-in-lansing-us-lansing-bc-15645503-0.jpg",
+                    "Image": {},
+                    "Price": 45045,
+                    "PropertyName": "Studio in Lansing",
+                    "PropertySlug": "studio-in-lansing",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-02-12T04:41:05.685153+00:00",
+                    "PropertyAttribute": "Family Friendly"
+                },
+                "Partner": {
+                    "ID": "15645503",
+                    "CacheURL": "https://www.booking.com/hotel/us/studio-in-lansing.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/studio-in-lansing.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-5201205",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "California",
+                            "Slug": "usa/california",
+                            "Type": "state",
+                            "Display": ["usa", "california"]
+                        },
+                        {
+                            "Name": "Monterey",
+                            "Slug": "usa/california/monterey",
+                            "Type": "city",
+                            "Display": ["usa", "california", "monterey"]
+                        }
+                    ],
+                    "City": "Carmel",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Carmel, CA, USA",
+                    "LocationID": "180045",
+                    "Lat": "36.573881",
+                    "Lng": "-121.882319"
+                },
+                "Property": {
+                    "Amenities": {
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "12": "Pool",
+                        "2": "Balcony/Terrace",
+                        "24": "Accessibility",
+                        "26": "Security/Safety",
+                        "29": "Sports/Activities",
+                        "31": "Wellness Facilities",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "2",
+                            "Name": "Balcony/Terrace"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        }
+                    ],
+                    "CachePrice": 38343,
+                    "Counts": {
+                        "Bedroom": 5,
+                        "Bathroom": 5,
+                        "Occupancy": 12
+                    },
+                    "FeatureImage": "lx21-360-ocean-view-us-carmel-bc-5201205-0.jpg",
+                    "Image": {},
+                    "IsStayAndPlay": true,
+                    "IsPetFriendly": true,
+                    "Price": 38343,
+                    "PropertyName": "LX21: 360 Ocean View",
+                    "PropertySlug": "lx21-360-ocean-view",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 11000.72,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-01-06T03:39:30.269550+00:00"
+                },
+                "Partner": {
+                    "ID": "5201205",
+                    "CacheURL": "https://www.booking.com/hotel/us/lx21-360-ocean-view-exquisite-artist-taste-estate.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/lx21-360-ocean-view-exquisite-artist-taste-estate.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15427273",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Tennessee",
+                            "Slug": "usa/tennessee",
+                            "Type": "state",
+                            "Display": ["usa", "tennessee"]
+                        },
+                        {
+                            "Name": "Nashville",
+                            "Slug": "usa/tennessee/nashville",
+                            "Type": "city",
+                            "Display": ["usa", "tennessee", "nashville"]
+                        },
+                        {
+                            "Name": "Downtown Nashville",
+                            "Slug": "usa/tennessee/nashville/downtown-nashville",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "tennessee", "nashville", "downtown-nashville"]
+                        }
+                    ],
+                    "City": "Nashville",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Downtown Nashville, Nashville, Tennessee, USA",
+                    "LocationID": "6059741",
+                    "Lat": "36.164428",
+                    "Lng": "-86.778542",
+                    "DistanceFromCenter": "0.26 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "1",
+                            "Name": "Air Conditioner"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        }
+                    ],
+                    "CachePrice": 34021.78,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 6,
+                        "Occupancy": 12
+                    },
+                    "FeatureImage": "majestic-lofts-of-nashv-us-nashville-bc-15427273-0.jpg",
+                    "Image": {},
+                    "Price": 34021.78,
+                    "PropertyName": "Majestic Lofts of Nashville",
+                    "PropertySlug": "majestic-lofts-of-nashville",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScores": {},
+                    "RoomSize": 3100.01,
+                    "StarRating": 3,
+                    "UpdatedAt": "2026-05-04T05:34:36.107146+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Family Friendly",
+                    "PropertyHighlights": ["Price Dropped"],
+                    "PropertyHighlight": "Price Dropped",
+                    "PropertyHighlightID": "5"
+                },
+                "Partner": {
+                    "ID": "15427273",
+                    "CacheURL": "https://www.booking.com/hotel/us/majestic-lofts-of-nashville-nashville.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/majestic-lofts-of-nashville-nashville.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-9060231",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "California",
+                            "Slug": "usa/california",
+                            "Type": "state",
+                            "Display": ["usa", "california"]
+                        },
+                        {
+                            "Name": "Monterey",
+                            "Slug": "usa/california/monterey",
+                            "Type": "city",
+                            "Display": ["usa", "california", "monterey"]
+                        },
+                        {
+                            "Name": "Golden Rectangle",
+                            "Slug": "usa/california/carmel/golden-rectangle",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "california", "carmel", "golden-rectangle"]
+                        }
+                    ],
+                    "City": "Carmel",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Carmel, CA, USA",
+                    "LocationID": "553248635976469647",
+                    "Lat": "36.554842",
+                    "Lng": "-121.928822"
+                },
+                "Property": {
+                    "Amenities": {
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "26": "Security/Safety",
+                        "5": "Child Friendly"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        },
+                        {
+                            "ID": "26",
+                            "Name": "Security/Safety"
+                        }
+                    ],
+                    "CachePrice": 30000,
+                    "Counts": {
+                        "Bedroom": 4,
+                        "Bathroom": 4,
+                        "Occupancy": 8
+                    },
+                    "FeatureImage": "ocean-house-us-carmel-bc-9060231-0.jpg",
+                    "Image": {},
+                    "IsStayAndPlay": true,
+                    "IsPetFriendly": true,
+                    "Price": 30000,
+                    "PropertyName": "Ocean House",
+                    "PropertySlug": "ocean-house",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-01-06T10:18:21.569808+00:00"
+                },
+                "Partner": {
+                    "ID": "9060231",
+                    "CacheURL": "https://www.booking.com/hotel/us/ocean-house-carmel.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/ocean-house-carmel.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-16206507",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Kansas",
+                            "Slug": "usa/kansas",
+                            "Type": "state",
+                            "Display": ["usa", "kansas"]
+                        },
+                        {
+                            "Name": "Brookville",
+                            "Slug": "usa/kansas/brookville",
+                            "Type": "city",
+                            "Display": ["usa", "kansas", "brookville"]
+                        }
+                    ],
+                    "City": "Brookville",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Brookville, Kansas, USA",
+                    "LocationID": "553248622847080901",
+                    "Lat": "38.751812",
+                    "Lng": "-98.0513",
+                    "DistanceFromCenter": "11.06 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "24": "Accessibility",
+                        "26": "Security/Safety",
+                        "29": "Sports/Activities",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "11",
+                            "Name": "Pet Friendly"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        }
+                    ],
+                    "CachePrice": 29646.33,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 3,
+                        "Occupancy": 24
+                    },
+                    "FeatureImage": "nuclear-missile-silo-b-us-brookville-bc-16206507-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 29646.33,
+                    "PropertyName": "Nuclear Missile Silo Bunker on Schilling AFB!",
+                    "PropertySlug": "nuclear-missile-silo-bunker-on-schilling-afb",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScores": {},
+                    "RoomSize": 2701.74,
+                    "StarRating": 3,
+                    "UpdatedAt": "2026-04-24T05:59:44.866616+00:00",
+                    "PropertyAttribute": "Free Cancellation",
+                    "PropertyHighlights": ["New Property"],
+                    "PropertyHighlight": "New Property",
+                    "PropertyHighlightID": "8"
+                },
+                "Partner": {
+                    "ID": "16206507",
+                    "CacheURL": "https://www.booking.com/hotel/us/nuclear-missile-silo-bunker-on-schilling-afb.html?aid=affiliate_id",
+                    "PropertyType": "Holiday Homes",
+                    "URL": "https://www.booking.com/hotel/us/nuclear-missile-silo-bunker-on-schilling-afb.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-14976964",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Miami",
+                            "Slug": "usa/florida/miami",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami"]
+                        },
+                        {
+                            "Name": "North Bay Village",
+                            "Slug": "usa/florida/north-bay-village",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "north-bay-village"]
+                        }
+                    ],
+                    "City": "Miami Beach",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "North Bay Village, Florida, USA",
+                    "LocationID": "9147",
+                    "Lat": "25.844183",
+                    "Lng": "-80.157075"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "14": "TV",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "31": "Wellness Facilities",
+                        "33": "Fireplace/Heating",
+                        "35": "Bar",
+                        "37": "Guest Services",
+                        "38": "Entertainment",
+                        "40": "Barbecue/Outdoor Cooking",
+                        "5": "Child Friendly",
+                        "6": "Hot Tub",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "6",
+                            "Name": "Hot Tub"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        }
+                    ],
+                    "CachePrice": 28246.67,
+                    "Counts": {
+                        "Bedroom": 5,
+                        "Bathroom": 4,
+                        "Occupancy": 12
+                    },
+                    "FeatureImage": "villa-tropique-us-miami-beach-bc-14976964-0.jpg",
+                    "Image": {},
+                    "Price": 28246.67,
+                    "PropertyName": "Villa Tropique",
+                    "PropertySlug": "villa-tropique",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 1797.57,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-01-06T08:20:51.653363+00:00",
+                    "LongStayFriendlyHome": true
+                },
+                "Partner": {
+                    "ID": "14976964",
+                    "CacheURL": "https://www.booking.com/hotel/us/villa-tropique.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/villa-tropique.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-7934798",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Hawaii",
+                            "Slug": "usa/hawaii",
+                            "Type": "state",
+                            "Display": ["usa", "hawaii"]
+                        },
+                        {
+                            "Name": "Lahaina",
+                            "Slug": "usa/hawaii/lahaina",
+                            "Type": "city",
+                            "Display": ["usa", "hawaii", "lahaina"]
+                        },
+                        {
+                            "Name": "Historic Lahaina Front Street",
+                            "Slug": "usa/hawaii/lahaina/historic-lahaina-front-street",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "hawaii", "lahaina", "historic-lahaina-front-street"]
+                        }
+                    ],
+                    "City": "Lahaina",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "USA",
+                    "LocationID": "553248621561883604",
+                    "Lat": "20.880873",
+                    "Lng": "-156.685588"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "11": "Pet Friendly",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "20": "Oceanfront",
+                        "4": "Breakfast",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "8": "Kitchen",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        },
+                        {
+                            "ID": "15",
+                            "Name": "View"
+                        },
+                        {
+                            "ID": "4",
+                            "Name": "Breakfast"
+                        }
+                    ],
+                    "CachePrice": 25220,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 4,
+                        "Occupancy": 10
+                    },
+                    "EcoFriendly": true,
+                    "FeatureImage": "k-b-m-resorts-bay-35-presi-us-lahaina-bc-7934798-0.jpg",
+                    "Image": {},
+                    "IsPetFriendly": true,
+                    "Price": 25220,
+                    "PropertyName": "K B M Resorts BAY-35 - Presidential 5bd, 5ba beach-front estate, air conditioning, steps to ocean",
+                    "PropertySlug": "k-b-m-resorts-bay-35-presidential-5bd-5ba-beach-front-estate-air-conditioning-steps-to-ocean",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScores": {},
+                    "RoomSize": 3993.41,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-01-06T03:43:31.992740+00:00"
+                },
+                "Partner": {
+                    "ID": "7934798",
+                    "CacheURL": "https://www.booking.com/hotel/us/k-b-m-resorts-bay-35-presidential-5bd-5ba-beach-front-estate-air-conditioning-st.html?aid=affiliate_id",
+                    "PropertyType": "Holiday Homes",
+                    "URL": "https://www.booking.com/hotel/us/k-b-m-resorts-bay-35-presidential-5bd-5ba-beach-front-estate-air-conditioning-st.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-11907024",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "South Carolina",
+                            "Slug": "usa/south-carolina",
+                            "Type": "state",
+                            "Display": ["usa", "south-carolina"]
+                        },
+                        {
+                            "Name": "Myrtle Beach",
+                            "Slug": "usa/south-carolina/myrtle-beach",
+                            "Type": "city",
+                            "Display": ["usa", "south-carolina", "myrtle-beach"]
+                        }
+                    ],
+                    "City": "Myrtle Beach",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Myrtle Beach, South Carolina, USA",
+                    "LocationID": "601685",
+                    "Lat": "33.66801",
+                    "Lng": "-78.906975",
+                    "DistanceFromCenter": "3.91 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "20": "Oceanfront",
+                        "24": "Accessibility",
+                        "26": "Security/Safety",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        },
+                        {
+                            "ID": "15",
+                            "Name": "View"
+                        }
+                    ],
+                    "CachePrice": 23714.33,
+                    "Counts": {
+                        "Bedroom": 20,
+                        "Bathroom": 20,
+                        "Reviews": 1,
+                        "Occupancy": 80
+                    },
+                    "FeatureImage": "oceanfront-paradise-us-myrtle-beach-bc-11907024-0.jpg",
+                    "Image": {},
+                    "Price": 23714.33,
+                    "PropertyName": "*OceanFRONT @ Paradise*Queen Beds*Pools Galore*R18",
+                    "PropertySlug": "oceanfront-paradise-queen-beds-pools-galore-r18",
+                    "PropertyType": "Apartment",
+                    "PropertyTypeCategoryId": "1",
+                    "ReviewScore": 8,
+                    "ReviewScores": {},
+                    "UpdatedAt": "2026-03-28T12:45:00.871754+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Ocean View"
+                },
+                "Partner": {
+                    "ID": "11907024",
+                    "CacheURL": "https://www.booking.com/hotel/us/oceanfront-paradise-queen-beds-pools-galore-r18-myrtle-beach2.html?aid=affiliate_id",
+                    "PropertyType": "Apartments",
+                    "URL": "https://www.booking.com/hotel/us/oceanfront-paradise-queen-beds-pools-galore-r18-myrtle-beach2.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-12089143",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Colorado",
+                            "Slug": "usa/colorado",
+                            "Type": "state",
+                            "Display": ["usa", "colorado"]
+                        },
+                        {
+                            "Name": "Denver",
+                            "Slug": "usa/colorado/denver",
+                            "Type": "city",
+                            "Display": ["usa", "colorado", "denver"]
+                        },
+                        {
+                            "Name": "LoDo",
+                            "Slug": "usa/colorado/denver/lodo",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "colorado", "denver", "lodo"]
+                        }
+                    ],
+                    "City": "Denver",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "LoDo, Denver, Colorado, USA",
+                    "LocationID": "6253359",
+                    "Lat": "39.750807",
+                    "Lng": "-104.995862",
+                    "DistanceFromCenter": "0.48 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "10": "Parking",
+                        "24": "Accessibility",
+                        "26": "Security/Safety",
+                        "29": "Sports/Activities",
+                        "31": "Wellness Facilities",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "5": "Child Friendly",
+                        "7": "Internet"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "10",
+                            "Name": "Parking"
+                        },
+                        {
+                            "ID": "7",
+                            "Name": "Internet"
+                        },
+                        {
+                            "ID": "5",
+                            "Name": "Child Friendly"
+                        }
+                    ],
+                    "CachePrice": 21828.33,
+                    "Counts": {
+                        "Bedroom": 1,
+                        "Bathroom": 1,
+                        "Reviews": 1,
+                        "Occupancy": 6
+                    },
+                    "FeatureImage": "downtown-denver-condo-in-t-us-denver-bc-12089143-0.jpg",
+                    "Image": {},
+                    "Price": 21828.33,
+                    "PropertyName": "Downtown Denver Condo in the Center of the City!",
+                    "PropertySlug": "downtown-denver-condo-in-the-center-of-the-city",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScore": 8,
+                    "ReviewScores": {},
+                    "RoomSize": 1044.1,
+                    "StarRating": 3,
+                    "UpdatedAt": "2026-05-02T04:08:33.377475+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "12089143",
+                    "CacheURL": "https://www.booking.com/hotel/us/walkable-condo-in-the-heart-of-downtown-denver.html?aid=affiliate_id",
+                    "PropertyType": "Holiday Homes",
+                    "URL": "https://www.booking.com/hotel/us/walkable-condo-in-the-heart-of-downtown-denver.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15636508",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "California",
+                            "Slug": "usa/california",
+                            "Type": "state",
+                            "Display": ["usa", "california"]
+                        },
+                        {
+                            "Name": "Palm Springs",
+                            "Slug": "usa/california/palm-springs",
+                            "Type": "city",
+                            "Display": ["usa", "california", "palm-springs"]
+                        },
+                        {
+                            "Name": "Rancho Mirage",
+                            "Slug": "usa/california/rancho-mirage",
+                            "Type": "city",
+                            "Display": ["usa", "california", "rancho-mirage"]
+                        }
+                    ],
+                    "City": "Rancho Mirage",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Rancho Mirage, California, USA",
+                    "LocationID": "9600",
+                    "Lat": "33.774874",
+                    "Lng": "-116.423157",
+                    "DistanceFromCenter": "2.20 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        }
+                    ],
+                    "CachePrice": 20933.33,
+                    "Counts": {
+                        "Bedroom": 5,
+                        "Bathroom": 3,
+                        "Occupancy": 11
+                    },
+                    "FeatureImage": "villa-casa-la-palmi-us-rancho-mirage-bc-15636508-0.jpg",
+                    "Image": {},
+                    "IsStayAndPlay": true,
+                    "Price": 20933.33,
+                    "PropertyName": "Villa Casa La Palmira",
+                    "PropertySlug": "villa-casa-la-palmira",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 10763.91,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-04-16T04:16:42.378030+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "15636508",
+                    "CacheURL": "https://www.booking.com/hotel/us/villa-casa-la-palmira.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/villa-casa-la-palmira.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15718255",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Miami",
+                            "Slug": "usa/florida/miami",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami"]
+                        },
+                        {
+                            "Name": "North Miami Beach",
+                            "Slug": "usa/florida/north-miami-beach",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "north-miami-beach"]
+                        }
+                    ],
+                    "City": "North Miami Beach",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "North Miami Beach, Florida, USA",
+                    "LocationID": "55169",
+                    "Lat": "25.957375",
+                    "Lng": "-80.158991",
+                    "DistanceFromCenter": "2.85 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "40": "Barbecue/Outdoor Cooking",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        }
+                    ],
+                    "CachePrice": 19020,
+                    "Counts": {
+                        "Bedroom": 9,
+                        "Bathroom": 7,
+                        "Occupancy": 18
+                    },
+                    "FeatureImage": "villa-flamingo-us-north-miami-beach-bc-15718255-0.jpg",
+                    "Image": {},
+                    "Price": 19020,
+                    "PropertyName": "Villa Flamingo Heights",
+                    "PropertySlug": "villa-flamingo-heights",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 3498.27,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-04-29T04:32:09.786321+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "15718255",
+                    "CacheURL": "https://www.booking.com/hotel/us/villa-flamingo-heights.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/villa-flamingo-heights.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15566172",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Nevada",
+                            "Slug": "usa/nevada",
+                            "Type": "state",
+                            "Display": ["usa", "nevada"]
+                        },
+                        {
+                            "Name": "Las Vegas",
+                            "Slug": "usa/nevada/las-vegas",
+                            "Type": "city",
+                            "Display": ["usa", "nevada", "las-vegas"]
+                        },
+                        {
+                            "Name": "North Las Vegas",
+                            "Slug": "usa/nevada/north-las-vegas",
+                            "Type": "city",
+                            "Display": ["usa", "nevada", "north-las-vegas"]
+                        }
+                    ],
+                    "City": "Las Vegas",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "North Las Vegas, Nevada, USA",
+                    "LocationID": "9169",
+                    "Lat": "36.194713",
+                    "Lng": "-115.129841",
+                    "DistanceFromCenter": "1.11 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "27": "EV Charge Station",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        }
+                    ],
+                    "CachePrice": 18986.67,
+                    "Counts": {
+                        "Bedroom": 8,
+                        "Bathroom": 5,
+                        "Occupancy": 16
+                    },
+                    "FeatureImage": "villa-desert-diamond-us-las-vegas-bc-15566172-0.jpg",
+                    "Image": {},
+                    "Price": 18986.67,
+                    "PropertyName": "Villa Desert Diamond",
+                    "PropertySlug": "villa-desert-diamond",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 3003.13,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-04-05T04:28:50.277982+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "15566172",
+                    "CacheURL": "https://www.booking.com/hotel/us/villa-desert-diamond.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/villa-desert-diamond.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15573767",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Nevada",
+                            "Slug": "usa/nevada",
+                            "Type": "state",
+                            "Display": ["usa", "nevada"]
+                        },
+                        {
+                            "Name": "Las Vegas",
+                            "Slug": "usa/nevada/las-vegas",
+                            "Type": "city",
+                            "Display": ["usa", "nevada", "las-vegas"]
+                        },
+                        {
+                            "Name": "Silverado Ranch",
+                            "Slug": "usa/nevada/las-vegas/silverado-ranch",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "nevada", "las-vegas", "silverado-ranch"]
+                        }
+                    ],
+                    "City": "Las Vegas",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Silverado Ranch, Las Vegas, Nevada, USA",
+                    "LocationID": "553248635976473349",
+                    "Lat": "36.019462",
+                    "Lng": "-115.143379",
+                    "DistanceFromCenter": "0.42 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "27": "EV Charge Station",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        }
+                    ],
+                    "CachePrice": 18986.67,
+                    "Counts": {
+                        "Bedroom": 8,
+                        "Bathroom": 6,
+                        "Occupancy": 16
+                    },
+                    "FeatureImage": "villa-gilded-ember-hous-us-las-vegas-bc-15573767-0.jpg",
+                    "Image": {},
+                    "Price": 18986.67,
+                    "PropertyName": "Villa Gilded Ember House",
+                    "PropertySlug": "villa-gilded-ember-house",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 3003.13,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-04-06T04:20:00.441529+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "15573767",
+                    "CacheURL": "https://www.booking.com/hotel/us/villa-gilded-ember-house.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/villa-gilded-ember-house.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15670805",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Miami",
+                            "Slug": "usa/florida/miami",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami"]
+                        },
+                        {
+                            "Name": "Venetian Islands",
+                            "Slug": "usa/florida/miami-beach/venetian-islands",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "florida", "miami-beach", "venetian-islands"]
+                        }
+                    ],
+                    "City": "Miami",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Venetian Islands, Miami Beach, Florida, USA",
+                    "LocationID": "553248635976481890",
+                    "Lat": "25.790343",
+                    "Lng": "-80.17805",
+                    "DistanceFromCenter": "1.72 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "40": "Barbecue/Outdoor Cooking",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        }
+                    ],
+                    "CachePrice": 18953.33,
+                    "Counts": {
+                        "Bedroom": 7,
+                        "Bathroom": 6,
+                        "Occupancy": 14
+                    },
+                    "FeatureImage": "villa-hella-with-private-po-us-miami-bc-15670805-0.jpg",
+                    "Image": {},
+                    "Price": 18953.33,
+                    "PropertyName": "Villa Hella with Private Pool",
+                    "PropertySlug": "villa-hella-with-private-pool",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 7265.64,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-04-23T05:47:09.724274+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "15670805",
+                    "CacheURL": "https://www.booking.com/hotel/us/villa-hella-with-private-pool.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/villa-hella-with-private-pool.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15710827",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "New York",
+                            "Slug": "usa/new-york",
+                            "Type": "state",
+                            "Display": ["usa", "new-york"]
+                        },
+                        {
+                            "Name": "East Hampton",
+                            "Slug": "usa/new-york/east-hampton",
+                            "Type": "city",
+                            "Display": ["usa", "new-york", "east-hampton"]
+                        },
+                        {
+                            "Name": "East Hampton North",
+                            "Slug": "usa/new-york/east-hampton/east-hampton-north",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "new-york", "east-hampton", "east-hampton-north"]
+                        }
+                    ],
+                    "City": "East Hampton",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "East Hampton North, East Hampton, New York, USA",
+                    "LocationID": "553248634999126055",
+                    "Lat": "40.970489",
+                    "Lng": "-72.221343",
+                    "DistanceFromCenter": "2.72 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "40": "Barbecue/Outdoor Cooking",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        }
+                    ],
+                    "CachePrice": 18953.33,
+                    "Counts": {
+                        "Bedroom": 7,
+                        "Bathroom": 5,
+                        "Occupancy": 14
+                    },
+                    "FeatureImage": "villa-saltwater-have-us-east-hampton-bc-15710827-0.jpg",
+                    "Image": {},
+                    "Price": 18953.33,
+                    "PropertyName": "Villa Saltwater Haven",
+                    "PropertySlug": "villa-saltwater-haven",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 3003.13,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-04-28T04:26:38.085292+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "15710827",
+                    "CacheURL": "https://www.booking.com/hotel/us/villa-saltwater-haven.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/villa-saltwater-haven.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15725520",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Miami",
+                            "Slug": "usa/florida/miami",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami"]
+                        },
+                        {
+                            "Name": "Miami Shores",
+                            "Slug": "usa/florida/miami-shores",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami-shores"]
+                        }
+                    ],
+                    "City": "Miami Shores",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Miami Shores, Florida, USA",
+                    "LocationID": "8834",
+                    "Lat": "25.871718",
+                    "Lng": "-80.173983",
+                    "DistanceFromCenter": "1.61 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "40": "Barbecue/Outdoor Cooking",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        }
+                    ],
+                    "CachePrice": 18920,
+                    "Counts": {
+                        "Bedroom": 6,
+                        "Bathroom": 4,
+                        "Occupancy": 12
+                    },
+                    "FeatureImage": "villa-solvista-us-miami-shores-bc-15725520-0.jpg",
+                    "Image": {},
+                    "Price": 18920,
+                    "PropertyName": "Villa Solvista",
+                    "PropertySlug": "villa-solvista",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 3498.27,
+                    "UpdatedAt": "2026-03-06T06:25:45.223737+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "15725520",
+                    "CacheURL": "https://www.booking.com/hotel/us/villa-solvista.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/villa-solvista.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15299115",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Maryland",
+                            "Slug": "usa/maryland",
+                            "Type": "state",
+                            "Display": ["usa", "maryland"]
+                        },
+                        {
+                            "Name": "Bethesda",
+                            "Slug": "usa/maryland/bethesda",
+                            "Type": "city",
+                            "Display": ["usa", "maryland", "bethesda"]
+                        },
+                        {
+                            "Name": "Darnestown",
+                            "Slug": "usa/maryland/darnestown",
+                            "Type": "city",
+                            "Display": ["usa", "maryland", "darnestown"]
+                        }
+                    ],
+                    "City": "Gaithersburg",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "Darnestown, Maryland, USA",
+                    "LocationID": "553248634999416757",
+                    "Lat": "39.110193",
+                    "Lng": "-77.286381"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "11": "Pet Friendly",
+                        "12": "Pool",
+                        "13": "Designated Smoking Area",
+                        "14": "TV",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "29": "Sports/Activities",
+                        "31": "Wellness Facilities",
+                        "32": "Spa",
+                        "33": "Fireplace/Heating",
+                        "35": "Bar",
+                        "37": "Guest Services",
+                        "38": "Entertainment",
+                        "4": "Breakfast",
+                        "40": "Barbecue/Outdoor Cooking",
+                        "5": "Child Friendly",
+                        "6": "Hot Tub",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "6",
+                            "Name": "Hot Tub"
+                        },
+                        {
+                            "ID": "32",
+                            "Name": "Spa"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        }
+                    ],
+                    "CachePrice": 18900,
+                    "Counts": {
+                        "Bedroom": 12,
+                        "Bathroom": 1,
+                        "Occupancy": 24
+                    },
+                    "FeatureImage": "luxury-estate-for-fi-us-gaithersburg-bc-15299115-0.jpg",
+                    "Image": {},
+                    "IsStayAndPlay": true,
+                    "IsPetFriendly": true,
+                    "Price": 18900,
+                    "PropertyName": "Luxury Estate for Filming",
+                    "PropertySlug": "luxury-estate-for-filming",
+                    "PropertyType": "House",
+                    "PropertyTypeCategoryId": "6",
+                    "ReviewScores": {},
+                    "RoomSize": 204.51,
+                    "UpdatedAt": "2026-02-16T05:33:07.654433+00:00",
+                    "PropertyAttribute": "Ocean View"
+                },
+                "Partner": {
+                    "ID": "15299115",
+                    "CacheURL": "https://www.booking.com/hotel/us/luxury-estate-for-filming.html?aid=affiliate_id",
+                    "PropertyType": "Homestays",
+                    "URL": "https://www.booking.com/hotel/us/luxury-estate-for-filming.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15716607",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "New York",
+                            "Slug": "usa/new-york",
+                            "Type": "state",
+                            "Display": ["usa", "new-york"]
+                        },
+                        {
+                            "Name": "East Hampton",
+                            "Slug": "usa/new-york/east-hampton",
+                            "Type": "city",
+                            "Display": ["usa", "new-york", "east-hampton"]
+                        },
+                        {
+                            "Name": "East Hampton North",
+                            "Slug": "usa/new-york/east-hampton/east-hampton-north",
+                            "Type": "neighborhood",
+                            "Display": ["usa", "new-york", "east-hampton", "east-hampton-north"]
+                        }
+                    ],
+                    "City": "East Hampton",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "East Hampton North, East Hampton, New York, USA",
+                    "LocationID": "553248634999126055",
+                    "Lat": "40.973357",
+                    "Lng": "-72.173579",
+                    "DistanceFromCenter": "1.30 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "40": "Barbecue/Outdoor Cooking",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        }
+                    ],
+                    "CachePrice": 18886.67,
+                    "Counts": {
+                        "Bedroom": 5,
+                        "Bathroom": 3,
+                        "Occupancy": 10
+                    },
+                    "FeatureImage": "villa-mist-manor-us-east-hampton-bc-15716607-0.jpg",
+                    "Image": {},
+                    "IsStayAndPlay": true,
+                    "Price": 18886.67,
+                    "PropertyName": "Villa Mist Manor",
+                    "PropertySlug": "villa-mist-manor",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 3498.27,
+                    "UpdatedAt": "2026-03-06T06:24:57.066886+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "15716607",
+                    "CacheURL": "https://www.booking.com/hotel/us/villa-mist-manor.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/villa-mist-manor.html?aid=affiliate_id"
+                }
+            },
+            {
+                "ID": "BC-15717413",
+                "Feed": 11,
+                "Published": true,
+                "GeoInfo": {
+                    "Categories": [
+                        {
+                            "Name": "USA",
+                            "Slug": "usa",
+                            "Type": "country",
+                            "Display": ["usa"]
+                        },
+                        {
+                            "Name": "Florida",
+                            "Slug": "usa/florida",
+                            "Type": "state",
+                            "Display": ["usa", "florida"]
+                        },
+                        {
+                            "Name": "Miami",
+                            "Slug": "usa/florida/miami",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "miami"]
+                        },
+                        {
+                            "Name": "North Miami Beach",
+                            "Slug": "usa/florida/north-miami-beach",
+                            "Type": "city",
+                            "Display": ["usa", "florida", "north-miami-beach"]
+                        }
+                    ],
+                    "City": "North Miami Beach",
+                    "Country": "USA",
+                    "CountryCode": "US",
+                    "Display": "North Miami Beach, Florida, USA",
+                    "LocationID": "55169",
+                    "Lat": "25.957007",
+                    "Lng": "-80.162907",
+                    "DistanceFromCenter": "2.67 km"
+                },
+                "Property": {
+                    "Amenities": {
+                        "1": "Air Conditioner",
+                        "10": "Parking",
+                        "12": "Pool",
+                        "15": "View",
+                        "19": "Ocean View",
+                        "2": "Balcony/Terrace",
+                        "20": "Oceanfront",
+                        "26": "Security/Safety",
+                        "33": "Fireplace/Heating",
+                        "37": "Guest Services",
+                        "40": "Barbecue/Outdoor Cooking",
+                        "5": "Child Friendly",
+                        "7": "Internet",
+                        "9": "Laundry"
+                    },
+                    "TopAmenities": [
+                        {
+                            "ID": "20",
+                            "Name": "Oceanfront"
+                        },
+                        {
+                            "ID": "33",
+                            "Name": "Fireplace/Heating"
+                        },
+                        {
+                            "ID": "12",
+                            "Name": "Pool"
+                        },
+                        {
+                            "ID": "19",
+                            "Name": "Ocean View"
+                        }
+                    ],
+                    "CachePrice": 18886.67,
+                    "Counts": {
+                        "Bedroom": 5,
+                        "Bathroom": 4,
+                        "Occupancy": 10
+                    },
+                    "FeatureImage": "villa-victory-w-us-north-miami-beach-bc-15717413-0.jpg",
+                    "Image": {},
+                    "Price": 18886.67,
+                    "PropertyName": "Villa Victory with pool",
+                    "PropertySlug": "villa-victory-with-pool",
+                    "PropertyType": "Villa",
+                    "PropertyTypeCategoryId": "9",
+                    "ReviewScores": {},
+                    "RoomSize": 3595.15,
+                    "StarRating": 4,
+                    "UpdatedAt": "2026-04-29T04:31:15.061032+00:00",
+                    "LongStayFriendlyHome": true,
+                    "PropertyAttribute": "Free Cancellation"
+                },
+                "Partner": {
+                    "ID": "15717413",
+                    "CacheURL": "https://www.booking.com/hotel/us/villa-victory-with-pool.html?aid=affiliate_id",
+                    "PropertyType": "Villas",
+                    "URL": "https://www.booking.com/hotel/us/villa-victory-with-pool.html?aid=affiliate_id"
+                }
+            }
+        ]
+    },
+    "Sts": {
+        "StsRoute": "ROW-\u003edefault-\u003edesktop",
+        "AllFeedRatio": {
+            "11": 100
+        }
+    },
+    "IsRealTimeAvailabilityFound": false,
+    "Success": true,
+    "ShowFallbackData": false
+}
