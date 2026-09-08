@@ -1,36 +1,40 @@
 {
-  "name": "stay-and-play-js",
-  "version": "1.0.0",
-  "description": "Assignment JS, TS & Node",
-  "keywords": [
-    "JavaScripts",
-    "TypeScripts",
-    "Node.js",
-    "Express.js"
-  ],
-  "homepage": "https://github.com/frost23z/stay-and-play-js#readme",
-  "bugs": {
-    "url": "https://github.com/frost23z/stay-and-play-js/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/frost23z/stay-and-play-js.git"
-  },
-  "license": "MIT",
-  "author": "Shaiekh Zayed Bin Hasan",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node --watch index.ts",
-    "start": "node index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^26.5.0",
-    "typescript": "^7.0.2"
-  }
+    "name": "stay-and-play-js",
+    "version": "1.0.0",
+    "description": "Assignment JS, TS & Node",
+    "keywords": [
+        "JavaScripts",
+        "TypeScripts",
+        "Node.js",
+        "Express.js"
+    ],
+    "homepage": "https://github.com/frost23z/stay-and-play-js#readme",
+    "bugs": {
+        "url": "https://github.com/frost23z/stay-and-play-js/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/frost23z/stay-and-play-js.git"
+    },
+    "license": "MIT",
+    "author": "Shaiekh Zayed Bin Hasan",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node --watch index.ts",
+        "start": "node index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "dependencies": {
+        "express": "^5.2.1"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.6",
+        "@types/node": "^26.5.0",
+        "prettier": "3.9.6",
+        "prettier-plugin-organize-imports": "^4.3.0",
+        "typescript": "^7.0.2"
+    }
 }
