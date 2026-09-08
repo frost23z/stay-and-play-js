@@ -19,10 +19,10 @@
     "license": "MIT",
     "author": "Shaiekh Zayed Bin Hasan",
     "type": "module",
-    "main": "index.js",
+    "main": "app.ts",
     "scripts": {
-        "dev": "node --watch index.ts",
-        "start": "node index.ts",
+        "dev": "node --watch app.ts",
+        "start": "node app.ts",
         "test": "echo \"Error: no test specified\" && exit 1",
         "format": "prettier --write .",
         "format:check": "prettier --check ."
