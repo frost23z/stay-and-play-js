@@ -55,3 +55,15 @@ ol {
     list-style: none;
     padding: 0;
 }
+
+/* Chrome, Edge, Safari */
+input[type='search']::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+/* Firefox */
+input[type='search'] {
+    appearance: none;
+}
