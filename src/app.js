@@ -1,4 +1,5 @@
 import express from 'express'
+import healthRouter from './routes/health.js'
 
 const app = express()
 const PORT = process.env.PORT || 3000
@@ -7,11 +8,6 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
-app.get('/health', (req, res) => {
-    res.status(200).json({
-        status: 'UP',
-        timestamp: new Date().toISOString(),
-    })
-})
+app.get('/health', healthRouter)
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
