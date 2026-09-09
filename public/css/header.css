@@ -8,6 +8,10 @@ header {
     gap: var(--space-4);
 }
 
+.logo {
+    margin-left: -4px;
+}
+
 .header-right {
     display: flex;
     align-items: center;
@@ -184,14 +188,5 @@ header {
 
     .header-right {
         gap: var(--space-2);
-    }
-
-    .logo-icon {
-        width: 28px;
-        height: 28px;
-    }
-
-    .logo-text {
-        font-size: 19px;
     }
 }

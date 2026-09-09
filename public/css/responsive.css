@@ -1,0 +1,15 @@
+@media (max-width: 500px) {
+    .club-meta-divider {
+        display: none;
+    }
+
+    .club-tee-hours {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        padding-inline: var(--space-4);
+    }
+}

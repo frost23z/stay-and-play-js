@@ -1,0 +1,53 @@
+/* ============ Page Heading section ============ */
+
+.page-heading-section {
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-6);
+}
+
+.club-name {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--color-dark-green);
+}
+
+.club-meta {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin-top: var(--space-3);
+    gap: var(--space-2);
+    align-items: center;
+    color: #7d7f84;
+    font-weight: 700;
+}
+
+.star-rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    color: var(--color-accent-green);
+}
+
+.star-rating .unchecked {
+    color: #c8c8c8;
+}
+
+.club-score {
+    font-size: 14px;
+    color: #484a52;
+}
+
+.club-reviews {
+    letter-spacing: 0.02em;
+}
+
+.club-tee-hours {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+}
