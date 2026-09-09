@@ -1,0 +1,27 @@
+:root {
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+
+    --color-dark-green: #222f24;
+    --color-accent-green: #93d99a;
+    --color-accent-green-border: #85c58c;
+    --color-muted-green: #b4c285;
+    --color-surface-green: #f4fcf6;
+    --color-surface-green-border: #e4f0e6;
+    --color-text-muted: #6b6f66;
+    --color-blue: #6fc6e0;
+    --color-gold: #f0a93a;
+    --color-success: #2e7d46;
+    --color-info-bg: #ecf3f9;
+    --color-white: #ffffff;
+
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-pill: 40px;
+
+    --container-padding: 32px;
+}

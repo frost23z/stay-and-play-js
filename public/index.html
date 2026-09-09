@@ -3,10 +3,100 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Details page of Eagle Creek Golf Club, Orlando, Florida">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        >
         <title>Eagle Creek Golf Club</title>
     </head>
 
     <body>
-        <h1>Hello, World!!</h1>
+        <header class="container">
+            <a class="logo" href="/" aria-label="Stay&amp;Play home">
+                <img class="logo" src="assets/logo.png" alt="Stay&Play logo">
+            </a>
+
+            <div class="header-right">
+                <nav class="primary-nav" aria-label="Main navigation">
+                    <ul class="desktop-nav">
+                        <li><a class="nav-btn" href="#">HOME</a></li>
+                        <li><a class="nav-btn" href="#">WHERE TO STAY</a></li>
+                        <li><a class="nav-btn" href="#">WHERE TO PLAY</a></li>
+                        <li><a class="nav-btn" href="#">GROUP TRAVEL</a></li>
+                    </ul>
+                </nav>
+
+                <a class="nav-btn nav-btn-alt nav-tee" href="#">
+                    <span class="tee-time-text">BOOK A TEE TIME</span>
+                    <span class="tee-time-icon" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 -960 960 960" fill="currentColor">
+                            <path
+                                d="M281.5-401.5Q200-483 200-600t81.5-198.5T480-880t198.5 81.5T760-600t-81.5 198.5T480-320t-198.5-81.5m340-57Q680-517 680-600t-58.5-141.5T480-800t-141.5 58.5T280-600t58.5 141.5T480-400t141.5-58.5m-193-153Q440-623 440-640t-11.5-28.5T400-680t-28.5 11.5T360-640t11.5 28.5T400-600t28.5-11.5m160 0Q600-623 600-640t-11.5-28.5T560-680t-28.5 11.5T520-640t11.5 28.5T560-600t28.5-11.5m-80-80Q520-703 520-720t-11.5-28.5T480-760t-28.5 11.5T440-720t11.5 28.5T480-680t28.5-11.5M440-80v-40q0-33-23.5-56.5T360-200h-80v-80h400v80h-80q-33 0-56.5 23.5T520-120v40zm40-520"
+                            />
+                        </svg>
+                    </span>
+                </a>
+
+                <form class="nav-search nav-btn" role="search">
+                    <label class="visually-hidden" for="site-search">Search</label>
+
+                    <input
+                        id="site-search"
+                        type="search"
+                        name="q"
+                        placeholder="SEARCH"
+                        autocomplete="off"
+                    >
+
+                    <button type="submit" aria-label="Submit search">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                            />
+                        </svg>
+                    </button>
+                </form>
+
+                <button
+                    class="icon-btn menu-btn"
+                    type="button"
+                    aria-label="Open navigation"
+                    aria-expanded="false"
+                    aria-controls="mobile-navigation"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        aria-hidden="true"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                        />
+                    </svg>
+                </button>
+            </div>
+        </header>
     </body>
 </html>

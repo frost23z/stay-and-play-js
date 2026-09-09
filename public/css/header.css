@@ -1,0 +1,197 @@
+header {
+    display: flex;
+    min-height: 80px;
+    background: var(--color-dark-green);
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+}
+
+.primary-nav {
+    display: flex;
+}
+
+.desktop-nav {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+}
+
+.nav-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+    padding: 8px 12px;
+    border-radius: var(--radius-pill);
+    flex-shrink: 0;
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+}
+
+.nav-btn:hover:not(.nav-search) {
+    background-color: var(--color-accent-green);
+    color: var(--color-dark-green);
+}
+
+.nav-btn:focus-visible {
+    outline: 2px solid var(--color-accent-green);
+    outline-offset: 2px;
+}
+
+/* Book a tee time -------------------------------------------------- */
+
+.nav-btn-alt {
+    color: var(--color-dark-green);
+    background-color: var(--color-accent-green);
+}
+
+.nav-btn-alt:hover {
+    background-color: #a6e5ac;
+}
+
+.tee-time-icon {
+    display: none;
+}
+
+/* Search -------------------------------------------------- */
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    min-height: 36px;
+    padding: 8px 12px;
+    border: 1px solid var(--color-accent-green-border);
+    border-radius: var(--radius-pill);
+}
+
+.nav-search:focus-within {
+    outline: 1px solid var(--color-accent-green);
+    outline-offset: 0px;
+}
+
+.nav-search input {
+    flex: 1;
+    width: 140px;
+    max-width: 100%;
+    min-width: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #ffffff;
+}
+
+.nav-search input::placeholder {
+    color: var(--color-accent-green);
+    opacity: 0.7;
+}
+
+.nav-search button {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--color-accent-green);
+}
+
+.nav-search button:hover {
+    color: #fff;
+}
+
+/* Mobile menu toggle -------------------------------------------------- */
+
+.menu-btn {
+    display: none;
+    color: var(--color-accent-green);
+}
+
+.menu-btn:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .primary-nav {
+        display: none;
+    }
+
+    .menu-btn {
+        display: grid;
+    }
+
+    .logo {
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        min-height: 64px;
+    }
+
+    .nav-tee {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        border-radius: 50%;
+    }
+
+    .tee-time-text {
+        display: none;
+    }
+
+    .tee-time-icon {
+        display: grid;
+        place-items: center;
+    }
+
+    .nav-search {
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        padding: 0;
+        border-radius: 50%;
+    }
+
+    .nav-search input {
+        display: none;
+    }
+
+    .nav-search button {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    header {
+        gap: var(--space-2);
+    }
+
+    .header-right {
+        gap: var(--space-2);
+    }
+
+    .logo-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .logo-text {
+        font-size: 19px;
+    }
+}
