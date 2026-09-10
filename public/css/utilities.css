@@ -1,3 +1,15 @@
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-3 {
+    gap: var(--space-3);
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;

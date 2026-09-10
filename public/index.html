@@ -140,6 +140,139 @@
                     </span>
                 </div>
             </section>
+
+            <div class="flex">
+                <div>
+                    <figure class="gallery" id="gallery">
+                        <button
+                            type="button"
+                            class="photo-main-btn"
+                            id="galleryPreviewOpen"
+                            aria-label="Open photo gallery"
+                        >
+                            <img
+                                class="photo-main"
+                                id="galleryPhotoMain"
+                                src="assets/gallery-1.jpg"
+                                alt="Fairway alongside a lake with a wooden boardwalk at Eagle Creek Golf Club"
+                            >
+                        </button>
+                        <span class="photo-side">
+                            <button
+                                type="button"
+                                class="photo-side-btn"
+                                data-gallery-open-index="1"
+                                aria-label="Open photo gallery, image 2"
+                            >
+                                <img
+                                    id="galleryPhotoSide"
+                                    src="assets/gallery-2.jpg"
+                                    alt="View of a green surrounded by water on the course"
+                                >
+                            </button>
+                            <span class="photo-frame">
+                                <button
+                                    type="button"
+                                    class="photo-frame-btn"
+                                    data-gallery-open-index="2"
+                                    aria-label="Open photo gallery, image 3"
+                                >
+                                    <img
+                                        id="galleryPhotoFrame"
+                                        src="assets/gallery-3.jpg"
+                                        alt="Clubhouse view across the lake at sunrise"
+                                    >
+                                </button>
+                                <button type="button" class="view-all" data-gallery-open>
+                                    VIEW ALL <span class="js-image-count">20</span> IMAGES
+                                </button>
+                                <button
+                                    type="button"
+                                    class="view-all view-all-mobile"
+                                    data-gallery-open
+                                >
+                                    VIEW ALL <span class="js-image-count">10</span> IMAGES
+                                </button>
+                            </span>
+                        </span>
+                        <div class="gallery-dots" id="galleryPreviewDots" aria-hidden="true"></div>
+                        <button type="button" class="view-all view-all-mobile" data-gallery-open>
+                            VIEW ALL <span class="js-image-count">10</span> IMAGES
+                        </button>
+                    </figure>
+                </div>
+                <aside class="booking-card-aside">
+                    <p>Booking information will be displayed here.</p>
+                </aside>
+            </div>
         </main>
+
+        <!-- ============ Gallery Modal ============ -->
+        <div class="gallery-modal" id="galleryModal" hidden>
+            <div class="gallery-modal-backdrop" data-gallery-close></div>
+
+            <div
+                class="gallery-modal-dialog"
+                role="dialog"
+                aria-modal="true"
+                aria-label="Eagle Creek Golf Club photo gallery"
+            >
+                <button
+                    type="button"
+                    class="gallery-modal-close"
+                    data-gallery-close
+                    aria-label="Close gallery"
+                >
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+
+                <!-- Desktop: scrollable list + booking card -->
+                <div class="gallery-modal-content">
+                    <div class="gallery-modal-list" id="galleryModalList"></div>
+
+                    <aside class="booking-card" aria-hidden="true">
+                        <div class="booking-card-skel booking-card-skel-title"></div>
+                        <div class="booking-card-skel booking-card-skel-text"></div>
+                        <div class="booking-card-skel booking-card-skel-price"></div>
+                        <div class="booking-card-skel booking-card-skel-link"></div>
+                        <div class="booking-card-skel booking-card-skel-button"></div>
+                        <div class="booking-card-skel booking-card-skel-note"></div>
+                        <div class="booking-card-skel booking-card-skel-banner"></div>
+                    </aside>
+                </div>
+
+                <!-- Tablet / mobile: single-image slider -->
+                <div class="gallery-modal-slider">
+                    <button
+                        type="button"
+                        class="gallery-modal-arrow gallery-modal-arrow-prev"
+                        data-gallery-prev
+                        aria-label="Previous image"
+                    >
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+
+                    <div class="gallery-modal-viewport" id="galleryModalViewport">
+                        <img class="gallery-modal-image" id="galleryModalImage" src="" alt="">
+                    </div>
+
+                    <button
+                        type="button"
+                        class="gallery-modal-arrow gallery-modal-arrow-next"
+                        data-gallery-next
+                        aria-label="Next image"
+                    >
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+
+                    <span class="gallery-modal-counter" id="galleryModalCounter">1 / 1</span>
+
+                    <div class="gallery-modal-dots" id="galleryModalDots"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/env.js"></script>
+        <script type="module" src="js/main.js"></script>
     </body>
 </html>

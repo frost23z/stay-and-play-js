@@ -8,6 +8,12 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .booking-card-aside {
+        display: none;
+    }
+}
+
 @media (max-width: 420px) {
     .container {
         padding-inline: var(--space-4);
