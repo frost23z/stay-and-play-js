@@ -179,3 +179,21 @@
     background-color: var(--color-accent-green);
     color: #10240f;
 }
+
+/* Description section */
+
+.description {
+    font-size: 14px;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-4);
+}
+
+.description-more-text {
+    display: none;
+}
+
+.description .link-btn {
+    color: #23291f;
+    font-size: 12px;
+    white-space: nowrap;
+}
