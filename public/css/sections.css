@@ -197,3 +197,54 @@
     font-size: 12px;
     white-space: nowrap;
 }
+
+/* ============ At a Glance bar ============ */
+
+.glance-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-6);
+    padding: var(--space-6) var(--space-8);
+    border-radius: var(--radius-md);
+    background-color: var(--color-surface-green);
+    border: 1px solid var(--color-surface-green-border);
+}
+
+.glance-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #23291f;
+}
+
+.glance-title-break {
+    display: none;
+}
+
+.glance-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: var(--space-6);
+}
+
+.glance-stat {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 13px;
+    font-weight: 700;
+    color: #23291f;
+    white-space: nowrap;
+}
+
+.glance-stat i {
+    font-size: 18px;
+    color: #23291f;
+}
+
+.glance-btn {
+    flex-shrink: 0;
+}

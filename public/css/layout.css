@@ -6,8 +6,3 @@
 main section {
     padding-block: var(--space-8);
 }
-
-.gallery-col {
-    flex: 1 1 0%;
-    min-width: 0;
-}

@@ -32,6 +32,66 @@
     .promo-btn-text-short {
         display: inline;
     }
+
+    .glance-card {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--space-4);
+        padding: var(--space-4);
+    }
+
+    .glance-stats {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .glance-card {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+            'title btn'
+            'stats btn';
+        align-items: center;
+        column-gap: var(--space-6);
+        row-gap: var(--space-2);
+    }
+
+    .glance-btn {
+        grid-area: btn;
+    }
+
+    .glance-title {
+        grid-area: title;
+    }
+
+    .glance-stats {
+        grid-area: stats;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1024px) {
+    .glance-card {
+        padding: var(--space-8);
+        gap: var(--space-8);
+    }
+
+    .glance-title {
+        font-size: 18px;
+    }
+
+    .glance-title-break {
+        display: block;
+    }
+
+    .glance-stat {
+        font-size: 15px;
+    }
+
+    .glance-stat i {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 500px) {
