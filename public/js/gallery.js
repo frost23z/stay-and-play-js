@@ -47,11 +47,14 @@ export async function initGallery() {
         els.photoMain.src = src
         els.photoMain.alt = `Eagle Creek Golf Club photo ${previewIndex + 1} of ${images.length}`
 
-        if (images[1]) {
-            els.photoSide.src = images[1]
+        const sideSrc = images[wrap(previewIndex + 1, images.length)]
+        const frameSrc = images[wrap(previewIndex + 2, images.length)]
+
+        if (sideSrc) {
+            els.photoSide.src = sideSrc
         }
-        if (images[2]) {
-            els.photoFrame.src = images[2]
+        if (frameSrc) {
+            els.photoFrame.src = frameSrc
         }
 
         if (els.previewCounter) {
