@@ -43,6 +43,68 @@
     .glance-stats {
         justify-content: center;
     }
+
+    .highlights-title {
+        font-size: 22px;
+    }
+
+    .highlights-grid {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: var(--space-4);
+        margin-bottom: var(--space-4);
+        padding-bottom: var(--space-2);
+        scrollbar-width: none;
+    }
+
+    .highlights-grid::-webkit-scrollbar {
+        display: none;
+    }
+
+    .highlight-card {
+        flex: 0 0 88%;
+        scroll-snap-align: start;
+    }
+
+    .highlights-scrollbar {
+        display: block;
+        position: relative;
+        height: 4px;
+        margin-bottom: var(--space-6);
+        border-radius: var(--radius-pill);
+        background-color: var(--color-surface-green-border);
+    }
+
+    .highlights-scrollbar-thumb {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        border-radius: var(--radius-pill);
+        background-color: var(--color-accent-green);
+    }
+
+    .highlights-row-group {
+        gap: var(--space-3);
+    }
+
+    .highlight-row {
+        flex-direction: column;
+        gap: var(--space-2);
+    }
+
+    .highlight-row i {
+        margin-top: 0;
+        font-size: 18px;
+    }
+
+    .highlights-packages {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: var(--space-2);
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -68,6 +130,16 @@
     .glance-stats {
         grid-area: stats;
         justify-content: flex-start;
+    }
+
+    .highlights-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .highlights-packages {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-2);
     }
 }
 
