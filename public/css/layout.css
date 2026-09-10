@@ -6,3 +6,15 @@
 main section {
     padding-block: var(--space-8);
 }
+
+/* ============ Main content / booking sidebar two-column layout ============ */
+
+.page-layout {
+    gap: var(--space-8);
+    align-items: flex-start;
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0;
+}
