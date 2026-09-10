@@ -734,3 +734,158 @@
 .weather-dot-active {
     background-color: #2f7d6c;
 }
+
+/* ============ Nearby courses section ============ */
+
+.nearby-courses-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #23291f;
+    margin-bottom: var(--space-6);
+}
+
+.nearby-courses-grid {
+    display: flex;
+    gap: var(--space-6);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin-bottom: var(--space-6);
+}
+
+.nearby-courses-grid::-webkit-scrollbar {
+    display: none;
+}
+
+.course-card {
+    flex: 0 0 calc((100% - 2 * var(--space-6)) / 3);
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background-color: var(--color-white);
+    box-shadow: 0 10px 30px rgba(20, 30, 20, 0.08);
+}
+
+.course-card-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.course-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    padding: var(--space-6);
+    flex: 1;
+}
+
+.course-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #23291f;
+}
+
+.course-card-distance {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: var(--color-success);
+}
+
+.course-card-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding-bottom: var(--space-3);
+    border-bottom: 1px solid var(--color-surface-green-border);
+}
+
+.course-card-meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #23291f;
+    white-space: nowrap;
+}
+
+.course-card-quote {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    flex: 1;
+}
+
+.course-card-quote-icon {
+    display: grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid var(--color-success);
+    color: var(--color-success);
+    font-size: 12px;
+    flex-shrink: 0;
+}
+
+.course-card-quote-text {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--color-success);
+}
+
+.course-card-actions {
+    display: flex;
+    gap: var(--space-3);
+    margin-top: auto;
+}
+
+.nearby-courses-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--space-4);
+}
+
+.nearby-courses-explore {
+    border: 2px solid #d5d8d2;
+    color: #9a9a9a;
+    background: transparent;
+}
+
+.nearby-courses-explore:hover {
+    background: transparent;
+    color: #9a9a9a;
+}
+
+.nearby-nav {
+    display: flex;
+    gap: var(--space-2);
+    flex-shrink: 0;
+}
+
+.nearby-nav-btn {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #d5d8d2;
+    background: transparent;
+    color: #c7c7c7;
+    flex-shrink: 0;
+}
+
+.nearby-nav-btn-active {
+    border-color: #23291f;
+    color: #23291f;
+}
