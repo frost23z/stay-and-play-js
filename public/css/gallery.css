@@ -1,7 +1,3 @@
-/* ============================================================
-   Gallery preview (desktop grid / tablet & mobile slider)
-   ============================================================ */
-
 .gallery {
     position: relative;
     display: grid;
@@ -13,25 +9,22 @@
     overflow: hidden;
 }
 
-.photo-main-btn,
-.photo-side-btn,
-.photo-frame-btn {
+.photo-main,
+.photo-side-item,
+.photo-frame-item {
+    position: relative;
     width: 100%;
     height: 100%;
-    padding: 0;
-    border: 0;
-    background: none;
-    cursor: pointer;
 }
 
-.photo-main-btn {
+.photo-main {
     grid-column: 1;
     grid-row: 1 / span 2;
 }
 
-.photo-main-btn img,
-.photo-side-btn img,
-.photo-frame-btn img {
+.photo-main img,
+.photo-side-item img,
+.photo-frame-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -46,7 +39,7 @@
     min-height: 0;
 }
 
-.photo-side-btn {
+.photo-side-item {
     flex: 1;
     min-height: 0;
 }
@@ -84,10 +77,6 @@
     bottom: var(--space-3);
 }
 
-.view-all-mobile {
-    display: none;
-}
-
 .gallery-dots {
     display: none;
     align-items: center;
@@ -110,14 +99,20 @@
     border-color: var(--color-dark-green);
 }
 
-/* Dots that sit over a dark photo (mobile/tablet preview, modal slider) */
-.gallery-dots-on-photo .gallery-dot {
-    border-color: rgba(255, 255, 255, 0.7);
-}
-
-.gallery-dots-on-photo .gallery-dot-active {
-    background: #ffffff;
-    border-color: #ffffff;
+/* Image counter overlay, shown on the main photo once the side thumbnails
+   and "view all" trigger are hidden (mobile/tablet, where there's no modal). */
+.gallery-counter {
+    display: none;
+    position: absolute;
+    right: var(--space-3);
+    bottom: var(--space-3);
+    z-index: 1;
+    padding: 4px 12px;
+    border-radius: var(--radius-pill);
+    background: rgba(10, 18, 12, 0.55);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 @media (max-width: 1024px) {
@@ -134,7 +129,11 @@
         grid-column: 1;
     }
 
-    .photo-main-btn {
+    .gallery-counter {
+        display: inline-block;
+    }
+
+    .photo-main {
         grid-row: 1;
         border-radius: var(--radius-md);
         overflow: hidden;
@@ -143,23 +142,11 @@
     .photo-side {
         display: none;
     }
-
-    .view-all-mobile {
-        display: inline-block;
-        justify-self: center;
-        border-color: var(--color-dark-green);
-        color: var(--color-dark-green);
-        background: transparent;
-    }
-
-    .view-all-mobile:hover {
-        background: var(--color-dark-green);
-        color: #ffffff;
-    }
 }
 
 /* ============================================================
-   Gallery modal
+   Gallery modal (desktop only — mobile/tablet already swipe
+   through every photo in the preview above, so no modal there)
    ============================================================ */
 
 body.gallery-modal-open {
@@ -190,7 +177,7 @@ body.gallery-modal-open {
 .gallery-modal-dialog {
     position: relative;
     z-index: 1;
-    width: min(1120px, 92vw);
+    width: min(900px, 92vw);
     max-height: 88vh;
     background: var(--color-white);
     border-radius: var(--radius-md);
@@ -218,12 +205,7 @@ body.gallery-modal-open {
     background: rgba(10, 18, 12, 0.8);
 }
 
-/* --- Desktop: scrollable list + booking card -------------------- */
-
 .gallery-modal-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: var(--space-5, 24px);
     padding: var(--space-6);
     max-height: 88vh;
 }
@@ -245,183 +227,9 @@ body.gallery-modal-open {
     object-fit: cover;
 }
 
-.gallery-modal-slider {
-    display: none;
-}
-
-/* Booking card skeleton -------------------------------------------------- */
-
-.booking-card {
-    align-self: start;
-    position: sticky;
-    top: 0;
-    border: 1px solid var(--color-surface-green-border);
-    border-radius: var(--radius-md);
-    background: var(--color-surface-green);
-    padding: var(--space-4);
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-3);
-}
-
-.booking-card-skel {
-    border-radius: var(--radius-sm);
-    background: linear-gradient(90deg, #e4f0e6 25%, #eef7f0 37%, #e4f0e6 63%);
-    background-size: 400% 100%;
-    animation: booking-skel-shimmer 1.6s ease-in-out infinite;
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .booking-card-skel {
-        animation: none;
-    }
-}
-
-.booking-card-skel-title {
-    height: 20px;
-    width: 70%;
-}
-
-.booking-card-skel-text {
-    height: 12px;
-    width: 90%;
-}
-
-.booking-card-skel-price {
-    height: 28px;
-    width: 50%;
-    margin-top: var(--space-2);
-}
-
-.booking-card-skel-link {
-    height: 12px;
-    width: 40%;
-}
-
-.booking-card-skel-button {
-    height: 44px;
-    width: 100%;
-    border-radius: var(--radius-pill);
-    margin-top: var(--space-2);
-}
-
-.booking-card-skel-note {
-    height: 12px;
-    width: 60%;
-    align-self: center;
-}
-
-.booking-card-skel-banner {
-    height: 40px;
-    width: 100%;
-    margin-top: var(--space-3);
-}
-
-@keyframes booking-skel-shimmer {
-    0% {
-        background-position: 100% 0;
-    }
-    100% {
-        background-position: 0 0;
-    }
-}
-
-/* --- Tablet / mobile: single-image slider -------------------- */
-
+/* No modal on mobile/tablet — the preview above already covers it. */
 @media (max-width: 1024px) {
-    .gallery-modal-dialog {
-        width: 100%;
-        height: 100%;
-        max-height: none;
-        border-radius: 0;
-    }
-
-    .gallery-modal-content {
-        display: none;
-    }
-
-    .gallery-modal-slider {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        background: #0b120c;
-        touch-action: pan-y;
-    }
-
-    .gallery-modal-viewport {
-        width: 100%;
-        height: 100%;
-        display: grid;
-        place-items: center;
-    }
-
-    .gallery-modal-image {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        user-select: none;
-        -webkit-user-drag: none;
-    }
-
-    .gallery-modal-arrow {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 2;
-        display: grid;
-        place-items: center;
-        width: 44px;
-        height: 44px;
-        border: 0;
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.15);
-        color: #ffffff;
-        font-size: 16px;
-        cursor: pointer;
-    }
-
-    .gallery-modal-arrow:hover {
-        background: rgba(255, 255, 255, 0.3);
-    }
-
-    .gallery-modal-arrow-prev {
-        left: var(--space-4);
-    }
-
-    .gallery-modal-arrow-next {
-        right: var(--space-4);
-    }
-
-    .gallery-modal-counter {
-        position: absolute;
-        right: var(--space-4);
-        bottom: var(--space-4);
-        z-index: 2;
-        padding: 4px 12px;
-        border-radius: var(--radius-pill);
-        background: rgba(10, 18, 12, 0.55);
-        color: #ffffff;
-        font-size: 12px;
-        font-weight: 700;
-    }
-
-    .gallery-modal-dots {
-        position: absolute;
-        left: 50%;
-        bottom: var(--space-4);
-        transform: translateX(-50%);
-        z-index: 2;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-}
-
-@media (max-width: 767px) {
-    .gallery-modal-arrow {
-        display: none;
+    .gallery-modal {
+        display: none !important;
     }
 }

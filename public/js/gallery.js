@@ -18,7 +18,6 @@ export async function initGallery() {
 
     let images = []
     let previewIndex = 0
-    let modalIndex = 0
     let modalListRendered = false
     let lastFocused = null
 
@@ -38,6 +37,8 @@ export async function initGallery() {
     setupModalControls()
 
     // ---- preview -------------------------------------------------------
+    // On mobile/tablet this preview IS the gallery: swipe or use the dots
+    // to move through every photo, with a counter showing where you are.
 
     function setPreviewIndex(index) {
         previewIndex = wrap(index, images.length)
@@ -52,6 +53,10 @@ export async function initGallery() {
             els.photoFrame.src = images[2]
         }
 
+        if (els.previewCounter) {
+            els.previewCounter.textContent = `${previewIndex + 1}/${images.length}`
+        }
+
         renderDots(els.previewDots, images.length, previewIndex, setPreviewIndex)
     }
 
@@ -62,47 +67,30 @@ export async function initGallery() {
         })
     }
 
-    // ---- modal -----------------------------------------------------------
+    // ---- modal (desktop only: full scrollable photo list) ----------------
 
     function setupModalControls() {
-        els.previewOpenBtn.addEventListener('click', () => openModal(previewIndex))
-
         els.openTriggers.forEach((btn) => {
-            btn.addEventListener('click', () => {
-                const indexAttr = btn.getAttribute('data-gallery-open-index')
-                openModal(indexAttr ? Number(indexAttr) : 0)
-            })
+            btn.addEventListener('click', openModal)
         })
 
         els.closeTriggers.forEach((btn) => {
             btn.addEventListener('click', closeModal)
         })
 
-        els.prevBtn.addEventListener('click', () => setModalIndex(modalIndex - 1))
-        els.nextBtn.addEventListener('click', () => setModalIndex(modalIndex + 1))
-
-        attachSwipe(els.modalSlider, {
-            onSwipeLeft: () => setModalIndex(modalIndex + 1),
-            onSwipeRight: () => setModalIndex(modalIndex - 1),
-        })
-
         document.addEventListener('keydown', (event) => {
             if (els.modal.hasAttribute('hidden')) return
             if (event.key === 'Escape') closeModal()
-            if (event.key === 'ArrowLeft') setModalIndex(modalIndex - 1)
-            if (event.key === 'ArrowRight') setModalIndex(modalIndex + 1)
         })
     }
 
-    function openModal(startIndex) {
+    function openModal() {
         if (!modalListRendered) {
             renderModalList()
             modalListRendered = true
         }
 
         lastFocused = document.activeElement
-        setModalIndex(startIndex)
-
         els.modal.removeAttribute('hidden')
         document.body.classList.add('gallery-modal-open')
         els.closeTriggers[0]?.focus()
@@ -124,16 +112,6 @@ export async function initGallery() {
             els.modalList.appendChild(img)
         })
     }
-
-    function setModalIndex(index) {
-        modalIndex = wrap(index, images.length)
-        els.modalImage.src = images[modalIndex]
-        els.modalImage.alt = `Eagle Creek Golf Club photo ${modalIndex + 1} of ${images.length}`
-        els.modalCounter.textContent = `${modalIndex + 1}/${images.length}`
-        renderDots(els.modalDots, images.length, modalIndex, setModalIndex, {
-            onPhoto: true,
-        })
-    }
 }
 
 // ---- helpers -------------------------------------------------------------
@@ -145,19 +123,11 @@ function getElements() {
         photoSide: document.getElementById('galleryPhotoSide'),
         photoFrame: document.getElementById('galleryPhotoFrame'),
         previewDots: document.getElementById('galleryPreviewDots'),
-        previewOpenBtn: document.getElementById('galleryPreviewOpen'),
-        openTriggers: Array.from(
-            document.querySelectorAll('[data-gallery-open], [data-gallery-open-index]')
-        ),
+        previewCounter: document.getElementById('galleryPreviewCounter'),
+        openTriggers: Array.from(document.querySelectorAll('[data-gallery-open]')),
         closeTriggers: Array.from(document.querySelectorAll('[data-gallery-close]')),
         modal: document.getElementById('galleryModal'),
         modalList: document.getElementById('galleryModalList'),
-        modalSlider: document.querySelector('.gallery-modal-slider'),
-        modalImage: document.getElementById('galleryModalImage'),
-        modalCounter: document.getElementById('galleryModalCounter'),
-        modalDots: document.getElementById('galleryModalDots'),
-        prevBtn: document.querySelector('[data-gallery-prev]'),
-        nextBtn: document.querySelector('[data-gallery-next]'),
         countEls: Array.from(document.querySelectorAll('.js-image-count')),
     }
 }
@@ -183,11 +153,10 @@ function wrap(index, length) {
  * Renders up to DOT_WINDOW dot indicators representing `total` slides,
  * sliding the visible window so the active dot is always shown.
  */
-function renderDots(container, total, activeIndex, onSelect, { onPhoto = false } = {}) {
+function renderDots(container, total, activeIndex, onSelect) {
     if (!container) return
 
     container.innerHTML = ''
-    container.classList.toggle('gallery-dots--on-photo', onPhoto)
 
     const windowSize = Math.min(DOT_WINDOW, total)
     let start = 0

@@ -141,68 +141,111 @@
                 </div>
             </section>
 
-            <div class="flex">
-                <div>
+            <div class="flex gap-3">
+                <div class="gallery-col">
                     <figure class="gallery" id="gallery">
-                        <button
-                            type="button"
-                            class="photo-main-btn"
-                            id="galleryPreviewOpen"
-                            aria-label="Open photo gallery"
-                        >
+                        <div class="photo-main">
                             <img
-                                class="photo-main"
+                                class="photo-main-img"
                                 id="galleryPhotoMain"
                                 src="assets/gallery-1.jpg"
                                 alt="Fairway alongside a lake with a wooden boardwalk at Eagle Creek Golf Club"
                             >
-                        </button>
+                            <span class="gallery-counter" id="galleryPreviewCounter">1/1</span>
+                        </div>
                         <span class="photo-side">
-                            <button
-                                type="button"
-                                class="photo-side-btn"
-                                data-gallery-open-index="1"
-                                aria-label="Open photo gallery, image 2"
-                            >
+                            <div class="photo-side-item">
                                 <img
                                     id="galleryPhotoSide"
                                     src="assets/gallery-2.jpg"
                                     alt="View of a green surrounded by water on the course"
                                 >
-                            </button>
+                            </div>
                             <span class="photo-frame">
-                                <button
-                                    type="button"
-                                    class="photo-frame-btn"
-                                    data-gallery-open-index="2"
-                                    aria-label="Open photo gallery, image 3"
-                                >
+                                <div class="photo-frame-item">
                                     <img
                                         id="galleryPhotoFrame"
                                         src="assets/gallery-3.jpg"
                                         alt="Clubhouse view across the lake at sunrise"
                                     >
-                                </button>
+                                </div>
                                 <button type="button" class="view-all" data-gallery-open>
                                     VIEW ALL <span class="js-image-count">20</span> IMAGES
-                                </button>
-                                <button
-                                    type="button"
-                                    class="view-all view-all-mobile"
-                                    data-gallery-open
-                                >
-                                    VIEW ALL <span class="js-image-count">10</span> IMAGES
                                 </button>
                             </span>
                         </span>
                         <div class="gallery-dots" id="galleryPreviewDots" aria-hidden="true"></div>
-                        <button type="button" class="view-all view-all-mobile" data-gallery-open>
-                            VIEW ALL <span class="js-image-count">10</span> IMAGES
-                        </button>
                     </figure>
                 </div>
                 <aside class="booking-card-aside">
-                    <p>Booking information will be displayed here.</p>
+                    <div class="booking-card">
+                        <div class="booking-card-price">
+                            <span class="booking-card-price-amount">USD $600</span>
+                            <span class="booking-card-price-note">AVG PER NIGHT</span>
+                        </div>
+
+                        <div class="booking-card-fields">
+                            <button type="button" class="booking-card-field">
+                                <span class="booking-card-field-label">CHECK-IN</span>
+                                <span class="booking-card-field-value">
+                                    24 SEP 2026
+                                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                            <button type="button" class="booking-card-field">
+                                <span class="booking-card-field-label">CHECK-OUT</span>
+                                <span class="booking-card-field-value">
+                                    26 SEP 2026
+                                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+
+                        <button type="button" class="booking-card-field booking-card-field-full">
+                            <span class="booking-card-field-label">GUESTS</span>
+                            <span class="booking-card-field-value">
+                                3 GUESTS, 1 INFANT, 1 PET
+                                <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+
+                        <p class="booking-card-alert">
+                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                            Dates selected are available
+                        </p>
+
+                        <div class="booking-card-price-rows">
+                            <div class="booking-card-price-row">
+                                <span>PRICE PER NIGHT</span>
+                                <span>USD $600</span>
+                            </div>
+                            <div class="booking-card-price-row booking-card-price-row-total">
+                                <span>TOTAL PRICE</span>
+                                <span>USD $600</span>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-primary booking-card-cta">
+                            Check Availability
+                        </button>
+
+                        <p class="booking-card-redirect">
+                            You will be redirected to
+                            <span class="booking-card-brand"
+                                >Booking<span class="booking-card-brand-accent">.com</span></span
+                            >
+                        </p>
+                    </div>
+
+                    <p class="booking-card-hot-deal">
+                        <i class="fa-solid fa-fire" aria-hidden="true"></i>
+                        Hot Deal &ndash; it has been viewed 30 times today
+                    </p>
+
+                    <p class="booking-card-other">
+                        Not the right fit? Check out our other top-rated golf courses in
+                        <a href="#">Orlando</a>
+                    </p>
                 </aside>
             </div>
         </main>
@@ -226,48 +269,9 @@
                     <i class="fa-solid fa-xmark" aria-hidden="true"></i>
                 </button>
 
-                <!-- Desktop: scrollable list + booking card -->
+                <!-- Desktop-only: scrollable photo list -->
                 <div class="gallery-modal-content">
                     <div class="gallery-modal-list" id="galleryModalList"></div>
-
-                    <aside class="booking-card" aria-hidden="true">
-                        <div class="booking-card-skel booking-card-skel-title"></div>
-                        <div class="booking-card-skel booking-card-skel-text"></div>
-                        <div class="booking-card-skel booking-card-skel-price"></div>
-                        <div class="booking-card-skel booking-card-skel-link"></div>
-                        <div class="booking-card-skel booking-card-skel-button"></div>
-                        <div class="booking-card-skel booking-card-skel-note"></div>
-                        <div class="booking-card-skel booking-card-skel-banner"></div>
-                    </aside>
-                </div>
-
-                <!-- Tablet / mobile: single-image slider -->
-                <div class="gallery-modal-slider">
-                    <button
-                        type="button"
-                        class="gallery-modal-arrow gallery-modal-arrow-prev"
-                        data-gallery-prev
-                        aria-label="Previous image"
-                    >
-                        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
-                    </button>
-
-                    <div class="gallery-modal-viewport" id="galleryModalViewport">
-                        <img class="gallery-modal-image" id="galleryModalImage" src="" alt="">
-                    </div>
-
-                    <button
-                        type="button"
-                        class="gallery-modal-arrow gallery-modal-arrow-next"
-                        data-gallery-next
-                        aria-label="Next image"
-                    >
-                        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
-                    </button>
-
-                    <span class="gallery-modal-counter" id="galleryModalCounter">1 / 1</span>
-
-                    <div class="gallery-modal-dots" id="galleryModalDots"></div>
                 </div>
             </div>
         </div>
