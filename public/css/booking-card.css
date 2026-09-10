@@ -1,19 +1,39 @@
+/* Sticky aside ----------------------------------------------------
+   The whole sidebar (booking card + hot-deal strip + the "not the
+   right fit" box) sticks together as one block while the main
+   content scrolls past it, and unsticks once the aside's own bottom
+   is reached. Sticking just the inner panel left the box below it
+   scrolling away on its own, which read as "not sticky". */
+
 .booking-card-aside {
-    flex: 0 0 340px;
+    position: sticky;
+    top: var(--space-6);
+    align-self: flex-start;
+    flex: 0 0 320px;
     display: flex;
     flex-direction: column;
-    gap: var(--space-4);
+    gap: var(--space-2);
+}
+
+/* The booking card and the hot-deal strip are grouped into one
+   visual unit (shared border/shadow, no gap between them) so they
+   read as a single attached card. */
+
+.booking-card-panel {
+    width: 100%;
+    border: 1px solid var(--color-surface-green-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-white);
+    box-shadow: 0 1px 3px rgba(15, 30, 20, 0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Booking card -------------------------------------------------- */
 
 .booking-card {
-    position: sticky;
-    align-self: start;
-    border: 1px solid var(--color-surface-green-border);
-    border-radius: var(--radius-md);
-    background: var(--color-white);
-    box-shadow: 0 1px 3px rgba(15, 30, 20, 0.08);
+    width: 100%;
     padding: var(--space-4);
     display: flex;
     flex-direction: column;
@@ -56,6 +76,12 @@
     padding: 8px 10px;
     font-family: inherit;
     cursor: pointer;
+    transition: border-color 0.15s ease;
+}
+
+.booking-card-field:hover,
+.booking-card-field:focus-visible {
+    border-color: var(--color-dark-green);
 }
 
 .booking-card-field-label {
@@ -75,6 +101,7 @@
     font-size: 13px;
     font-weight: 700;
     color: var(--color-dark-green);
+    text-transform: uppercase;
 }
 
 .booking-card-field-value i {
@@ -153,9 +180,13 @@
     display: flex;
     align-items: center;
     gap: var(--space-2);
-    border-radius: var(--radius-sm);
+    width: 100%;
+    /* No radius/border of its own — it's the bottom edge of
+       .booking-card-panel, which already clips the corners. */
+    border-radius: 0;
+    border-top: 1px solid var(--color-surface-green-border);
     background: var(--color-info-bg);
-    padding: 8px 12px;
+    padding: 10px 16px;
     font-size: 11px;
     font-weight: 600;
     color: #33403a;
@@ -167,7 +198,7 @@
 }
 
 .booking-card-other {
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-sm);
     background: var(--color-info-bg);
     padding: var(--space-4);
     text-align: center;

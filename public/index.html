@@ -318,6 +318,65 @@
                         </div>
                     </section>
 
+                    <!-- ============ Nearby Properties ============ -->
+                    <section class="nearby-properties">
+                        <div class="nearby-properties-header">
+                            <h2 class="nearby-properties-title">
+                                Find the Perfect Stay Near Eagle Creek Golf Club in Orlando, FL
+                            </h2>
+
+                            <div class="nearby-properties-filters">
+                                <button type="button" class="nearby-filter-btn" disabled>
+                                    Stay Within 10 Miles
+                                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                                </button>
+                                <button type="button" class="nearby-filter-btn" disabled>
+                                    Property Type
+                                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                                </button>
+                                <button type="button" class="nearby-filter-btn" disabled>
+                                    2 Bedroom
+                                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                                </button>
+
+                                <label class="nearby-sort">
+                                    <span class="visually-hidden">Sort nearby properties</span>
+                                    <select id="nearbyPropertiesSort" class="nearby-sort-select">
+                                        <option value="most-popular" selected>Most Popular</option>
+                                        <option value="highest-price">Highest Price</option>
+                                        <option value="lowest-price">Lowest Price</option>
+                                    </select>
+                                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="nearby-properties-layout">
+                            <div
+                                class="nearby-properties-grid"
+                                id="nearbyPropertiesGrid"
+                                aria-live="polite"
+                            ></div>
+
+                            <div class="nearby-properties-map" id="nearbyPropertiesMap"></div>
+                        </div>
+
+                        <div
+                            class="nearby-properties-dots"
+                            id="nearbyPropertiesDots"
+                            aria-hidden="true"
+                        ></div>
+
+                        <div class="nearby-properties-footer">
+                            <button
+                                type="button"
+                                class="btn btn-outline nearby-properties-view-all"
+                            >
+                                View All Places To Stay
+                            </button>
+                        </div>
+                    </section>
+
                     <section class="highlights">
                         <div class="highlights-card">
                             <h2 class="highlights-title">Eagle Creek Golf Club Highlights</h2>
@@ -514,7 +573,7 @@
                                 </p>
 
                                 <div class="review-author">
-                                    <img class="review-avatar" src="assets/reviewer-1.jpg" alt="">
+                                    <i class="fa-regular fa-circle-user"></i>
                                     <span class="review-author-name">Golf Pro John Smith</span>
                                 </div>
                             </article>
@@ -544,7 +603,7 @@
                                 </p>
 
                                 <div class="review-author">
-                                    <img class="review-avatar" src="assets/reviewer-2.jpg" alt="">
+                                    <i class="fa-regular fa-circle-user"></i>
                                     <span class="review-author-name">Golf Pro John Smith</span>
                                 </div>
                             </article>
@@ -574,7 +633,7 @@
                                 </p>
 
                                 <div class="review-author">
-                                    <img class="review-avatar" src="assets/reviewer-3.jpg" alt="">
+                                    <i class="fa-regular fa-circle-user"></i>
                                     <span class="review-author-name">Golf Pro John Smith</span>
                                 </div>
                             </article>
@@ -859,7 +918,7 @@
                             <article class="course-card">
                                 <img
                                     class="course-card-image"
-                                    src="assets/course-1.jpg"
+                                    src="assets/images/course-1.jpg"
                                     alt="Providence Golf Club clubhouse overlooking the fairway at sunset"
                                 >
 
@@ -908,7 +967,7 @@
                             <article class="course-card">
                                 <img
                                     class="course-card-image"
-                                    src="assets/course-2.jpg"
+                                    src="assets/images/course-2.jpg"
                                     alt="ChampionsGate Golf Club fairway along a rocky coastline"
                                 >
 
@@ -957,7 +1016,7 @@
                             <article class="course-card">
                                 <img
                                     class="course-card-image"
-                                    src="assets/course-3.jpg"
+                                    src="assets/images/course-3.jpg"
                                     alt="Nicklaus Course at Reunion Resort aerial view of bunkers and green"
                                 >
 
@@ -1031,69 +1090,93 @@
                     </section>
                 </div>
                 <aside class="booking-card-aside">
-                    <div class="booking-card">
-                        <div class="booking-card-price">
-                            <span class="booking-card-price-amount">USD $600</span>
-                            <span class="booking-card-price-note">AVG PER NIGHT</span>
-                        </div>
-
-                        <div class="booking-card-fields">
-                            <button type="button" class="booking-card-field">
-                                <span class="booking-card-field-label">CHECK-IN</span>
-                                <span class="booking-card-field-value">
-                                    24 SEP 2026
-                                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
-                                </span>
-                            </button>
-                            <button type="button" class="booking-card-field">
-                                <span class="booking-card-field-label">CHECK-OUT</span>
-                                <span class="booking-card-field-value">
-                                    26 SEP 2026
-                                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
-                                </span>
-                            </button>
-                        </div>
-
-                        <button type="button" class="booking-card-field booking-card-field-full">
-                            <span class="booking-card-field-label">GUESTS</span>
-                            <span class="booking-card-field-value">
-                                3 GUESTS, 1 INFANT, 1 PET
-                                <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
-                            </span>
-                        </button>
-
-                        <p class="booking-card-alert">
-                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
-                            Dates selected are available
-                        </p>
-
-                        <div class="booking-card-price-rows">
-                            <div class="booking-card-price-row">
-                                <span>PRICE PER NIGHT</span>
-                                <span>USD $600</span>
+                    <div class="booking-card-panel">
+                        <div class="booking-card">
+                            <div class="booking-card-price">
+                                <span class="booking-card-price-amount" id="bookingPricePerNight"
+                                    >USD $2,026</span
+                                >
+                                <span class="booking-card-price-note">AVG PER NIGHT</span>
                             </div>
-                            <div class="booking-card-price-row booking-card-price-row-total">
-                                <span>TOTAL PRICE</span>
-                                <span>USD $600</span>
+
+                            <div class="booking-card-fields">
+                                <button
+                                    type="button"
+                                    class="booking-card-field"
+                                    id="checkInField"
+                                    aria-haspopup="dialog"
+                                    aria-controls="bookingDateModal"
+                                >
+                                    <span class="booking-card-field-label">CHECK-IN</span>
+                                    <span class="booking-card-field-value">
+                                        <span id="checkInValue">24 SEP 2026</span>
+                                        <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="booking-card-field"
+                                    id="checkOutField"
+                                    aria-haspopup="dialog"
+                                    aria-controls="bookingDateModal"
+                                >
+                                    <span class="booking-card-field-label">CHECK-OUT</span>
+                                    <span class="booking-card-field-value">
+                                        <span id="checkOutValue">26 SEP 2026</span>
+                                        <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                                    </span>
+                                </button>
                             </div>
-                        </div>
 
-                        <button type="button" class="btn btn-primary booking-card-cta">
-                            Check Availability
-                        </button>
-
-                        <p class="booking-card-redirect">
-                            You will be redirected to
-                            <span class="booking-card-brand"
-                                >Booking<span class="booking-card-brand-accent">.com</span></span
+                            <button
+                                type="button"
+                                class="booking-card-field booking-card-field-full"
+                                id="guestsField"
+                                aria-haspopup="dialog"
+                                aria-controls="guestsModal"
                             >
+                                <span class="booking-card-field-label">GUESTS</span>
+                                <span class="booking-card-field-value">
+                                    <span id="guestsValue">3 Guests, 1 Infant, 1 Pet</span>
+                                    <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+
+                            <p class="booking-card-alert">
+                                <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                Dates selected are available
+                            </p>
+
+                            <div class="booking-card-price-rows">
+                                <div class="booking-card-price-row">
+                                    <span>PRICE PER NIGHT</span>
+                                    <span id="pricePerNightValue">USD $2,026</span>
+                                </div>
+                                <div class="booking-card-price-row booking-card-price-row-total">
+                                    <span>TOTAL PRICE</span>
+                                    <span id="totalPriceValue">USD $4,052</span>
+                                </div>
+                            </div>
+
+                            <button type="button" class="btn btn-primary booking-card-cta">
+                                Check Availability
+                            </button>
+
+                            <p class="booking-card-redirect">
+                                You will be redirected to
+                                <span class="booking-card-brand"
+                                    >Booking<span class="booking-card-brand-accent"
+                                        >.com</span
+                                    ></span
+                                >
+                            </p>
+                        </div>
+
+                        <p class="booking-card-hot-deal">
+                            <i class="fa-solid fa-fire" aria-hidden="true"></i>
+                            Hot Deal &ndash; it has been viewed 30 times today
                         </p>
                     </div>
-
-                    <p class="booking-card-hot-deal">
-                        <i class="fa-solid fa-fire" aria-hidden="true"></i>
-                        Hot Deal &ndash; it has been viewed 30 times today
-                    </p>
 
                     <p class="booking-card-other">
                         Not the right fit? Check out our other top-rated golf courses in
@@ -1102,6 +1185,163 @@
                 </aside>
             </div>
         </main>
+
+        <!-- ============ Booking Date Picker Modal ============ -->
+        <div class="booking-modal" id="bookingDateModal" hidden>
+            <div class="booking-modal-backdrop" data-booking-date-close></div>
+
+            <div
+                class="booking-modal-dialog booking-date-modal-dialog"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="bookingDateModalTitle"
+            >
+                <div class="booking-modal-header">
+                    <h2 class="booking-modal-title" id="bookingDateModalTitle">
+                        When do you want to travel?
+                    </h2>
+                    <button
+                        type="button"
+                        class="booking-modal-close"
+                        data-booking-date-close
+                        aria-label="Close date picker"
+                    >
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+                <div class="booking-date-modal-body">
+                    <input type="text" id="bookingDateInput" class="visually-hidden">
+                    <div id="bookingDatepickerCalendar" class="booking-date-modal-calendar"></div>
+                </div>
+
+                <div class="booking-modal-footer">
+                    <button type="button" class="link-btn booking-date-clear" id="bookingDateClear">
+                        Clear dates
+                    </button>
+                    <button
+                        type="button"
+                        class="btn btn-primary booking-date-continue"
+                        id="bookingDateContinue"
+                    >
+                        Continue
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============ Guests Modal ============ -->
+        <div class="booking-modal" id="guestsModal" hidden>
+            <div class="booking-modal-backdrop" data-guests-close></div>
+
+            <div
+                class="booking-modal-dialog guests-modal-dialog"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="guestsModalTitle"
+            >
+                <div class="booking-modal-header">
+                    <h2 class="booking-modal-title" id="guestsModalTitle">Filters</h2>
+                    <button
+                        type="button"
+                        class="booking-modal-close"
+                        data-guests-close
+                        aria-label="Close filters"
+                    >
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+                <div class="guests-modal-body">
+                    <div class="guests-row" data-guest-type="guests">
+                        <div class="guests-row-text">
+                            <span class="guests-row-label">Guests</span>
+                            <span class="guests-row-hint">Ages 13 or above</span>
+                        </div>
+                        <div class="guests-stepper">
+                            <button
+                                type="button"
+                                class="guests-stepper-btn"
+                                data-guest-decrement="guests"
+                                aria-label="Decrease number of guests"
+                            >
+                                <i class="fa-solid fa-minus" aria-hidden="true"></i>
+                            </button>
+                            <span class="guests-stepper-value" id="guestsCountGuests">3</span>
+                            <button
+                                type="button"
+                                class="guests-stepper-btn"
+                                data-guest-increment="guests"
+                                aria-label="Increase number of guests"
+                            >
+                                <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="guests-row" data-guest-type="infants">
+                        <div class="guests-row-text">
+                            <span class="guests-row-label">Infants</span>
+                            <span class="guests-row-hint">Under 2</span>
+                        </div>
+                        <div class="guests-stepper">
+                            <button
+                                type="button"
+                                class="guests-stepper-btn"
+                                data-guest-decrement="infants"
+                                aria-label="Decrease number of infants"
+                            >
+                                <i class="fa-solid fa-minus" aria-hidden="true"></i>
+                            </button>
+                            <span class="guests-stepper-value" id="guestsCountInfants">1</span>
+                            <button
+                                type="button"
+                                class="guests-stepper-btn"
+                                data-guest-increment="infants"
+                                aria-label="Increase number of infants"
+                            >
+                                <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="guests-row" data-guest-type="pets">
+                        <div class="guests-row-text">
+                            <span class="guests-row-label">Pets</span>
+                            <span class="guests-row-hint">Service animals always welcome</span>
+                        </div>
+                        <div class="guests-stepper">
+                            <button
+                                type="button"
+                                class="guests-stepper-btn"
+                                data-guest-decrement="pets"
+                                aria-label="Decrease number of pets"
+                            >
+                                <i class="fa-solid fa-minus" aria-hidden="true"></i>
+                            </button>
+                            <span class="guests-stepper-value" id="guestsCountPets">1</span>
+                            <button
+                                type="button"
+                                class="guests-stepper-btn"
+                                data-guest-increment="pets"
+                                aria-label="Increase number of pets"
+                            >
+                                <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-modal-footer">
+                    <button type="button" class="link-btn guests-reset" id="guestsReset">
+                        Clear
+                    </button>
+                    <button type="button" class="btn btn-primary guests-apply" id="guestsApply">
+                        Apply
+                    </button>
+                </div>
+            </div>
+        </div>
 
         <!-- ============ Gallery Modal ============ -->
         <div class="gallery-modal" id="galleryModal" hidden>
@@ -1230,6 +1470,8 @@
             </div>
         </footer>
         <script src="js/env.js"></script>
+        <script src="js/fecha.min.js"></script>
+        <script src="js/hotel-datepicker.min.js"></script>
         <script type="module" src="js/main.js"></script>
     </body>
 </html>

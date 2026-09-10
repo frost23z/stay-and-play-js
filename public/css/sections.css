@@ -889,3 +889,326 @@
     border-color: #23291f;
     color: #23291f;
 }
+
+/* ============ Nearby properties section ============ */
+
+.nearby-properties-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+}
+
+.nearby-properties-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #23291f;
+    max-width: 560px;
+}
+
+.nearby-properties-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+}
+
+.nearby-filter-btn,
+.nearby-sort {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #d5d8d2;
+    border-radius: var(--radius-pill);
+    background: var(--color-white);
+    padding: 8px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #23291f;
+    white-space: nowrap;
+}
+
+.nearby-filter-btn {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
+.nearby-filter-btn i,
+.nearby-sort i {
+    font-size: 10px;
+    color: #9a9a9a;
+    pointer-events: none;
+}
+
+.nearby-sort {
+    position: relative;
+    cursor: pointer;
+}
+
+.nearby-sort-select {
+    appearance: none;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #23291f;
+    cursor: pointer;
+    padding-right: 2px;
+}
+
+.nearby-sort-select:focus-visible {
+    outline: 2px solid var(--color-dark-green);
+    outline-offset: 2px;
+}
+
+.nearby-properties-layout {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--space-4);
+    /* stretch (the grid default) is required so .nearby-properties-map
+       gets a real, definite height for Google Maps to size its canvas
+       against — align-items:start + height:100% here would let the map
+       collapse to 0px tall in some browsers, which breaks marker
+       placement and tile rendering silently. */
+    align-items: stretch;
+}
+
+.nearby-properties-grid {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    align-content: start;
+}
+
+.nearby-properties-map {
+    grid-column: span 1;
+    position: sticky;
+    top: var(--space-6);
+    min-height: 320px;
+    border-radius: var(--radius-md);
+    background: var(--color-surface-green);
+    border: 1px solid var(--color-surface-green-border);
+    overflow: hidden;
+}
+
+/* Google writes its own canvas/div tree into the container; force it to
+   fill the rounded box above instead of collapsing to 0 height. */
+.nearby-properties-map .gm-style,
+.nearby-properties-map > div {
+    border-radius: inherit;
+}
+
+.nearby-properties-map-note {
+    height: 100%;
+    min-height: inherit;
+    display: grid;
+    place-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    text-align: center;
+    padding: var(--space-4);
+}
+
+/* Synced highlight state — set by nearby-map.js when a card is hovered
+   or its matching marker is hovered/clicked on the map. Matches
+   ACTIVE_COLOR in nearby-map.js so the card and its pin read as one
+   pair; gold was dropped since it's already the star-rating color. */
+.property-card--active {
+    outline-color: var(--color-dark-green);
+}
+
+.nearby-properties-empty {
+    grid-column: 1 / -1;
+    padding: var(--space-6);
+    text-align: center;
+    font-size: 13px;
+    color: var(--color-text-muted);
+}
+
+.property-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background: var(--color-white);
+    box-shadow: 0 10px 30px rgba(20, 30, 20, 0.08);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    transition: outline-color 0.15s ease;
+}
+
+.property-card-media {
+    position: relative;
+}
+
+.property-card-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    background: var(--color-surface-green-border);
+}
+
+.property-card-image--placeholder {
+    background: var(--color-surface-green-border);
+}
+
+.property-card-favorite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(10, 18, 12, 0.45);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.property-card-favorite[aria-pressed='true'] {
+    color: #e0483e;
+}
+
+.property-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: var(--space-4);
+}
+
+.property-card-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--color-text-muted);
+}
+
+.property-card-score {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 700;
+    color: var(--color-success);
+}
+
+.property-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #23291f;
+    /* Clamp to 2 lines and reserve that height even for short titles, so
+       a card with a 2-line name doesn't push its price/actions lower
+       than the cards next to it. */
+    min-height: calc(1.3em * 2);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.property-card-source {
+    font-size: 11px;
+    color: var(--color-text-muted);
+}
+
+.property-card-price {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-success);
+}
+
+.property-card-amenities,
+.property-card-location {
+    font-size: 12px;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.property-card-actions {
+    display: flex;
+    gap: var(--space-2);
+    margin-top: var(--space-2);
+}
+
+.property-card-actions .btn {
+    flex: 1;
+}
+
+/* Loading skeleton */
+
+.property-card--skeleton .property-card-media--skeleton {
+    aspect-ratio: 4 / 3;
+    background: var(--color-surface-green-border);
+}
+
+.skeleton-line {
+    height: 10px;
+    border-radius: 4px;
+    background: var(--color-surface-green-border);
+    animation: nearby-skeleton-pulse 1.2s ease-in-out infinite;
+}
+
+.skeleton-line--sm {
+    width: 40%;
+}
+
+.skeleton-line--lg {
+    width: 80%;
+    height: 14px;
+}
+
+.skeleton-line--md {
+    width: 60%;
+}
+
+@keyframes nearby-skeleton-pulse {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.nearby-properties-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-6);
+}
+
+.nearby-properties-dots {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: var(--space-4);
+}
+
+.nearby-properties-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1.5px solid var(--color-accent-green-border);
+    background: transparent;
+    padding: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.nearby-properties-dot-active {
+    background: var(--color-dark-green);
+    border-color: var(--color-dark-green);
+}

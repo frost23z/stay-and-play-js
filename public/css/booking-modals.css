@@ -1,0 +1,278 @@
+/* ============================================================
+   Shared modal shell (date picker + guests) — same overlay
+   pattern as the gallery modal for visual/behavioural consistency.
+   ============================================================ */
+
+body.booking-modal-open {
+    overflow: hidden;
+}
+
+.booking-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+}
+
+.booking-modal[hidden] {
+    display: none;
+}
+
+.booking-modal:not([hidden]) {
+    display: grid;
+    place-items: center;
+    padding: var(--space-4);
+}
+
+.booking-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 18, 12, 0.55);
+}
+
+.booking-modal-dialog {
+    position: relative;
+    z-index: 1;
+    width: min(480px, 100%);
+    max-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
+    border-radius: var(--radius-md);
+    box-shadow: 0 20px 60px rgba(10, 18, 12, 0.25);
+    overflow: hidden;
+}
+
+.booking-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding: var(--space-4) var(--space-4) var(--space-3);
+    border-bottom: 1px solid var(--color-surface-green-border);
+    flex-shrink: 0;
+}
+
+.booking-modal-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-dark-green);
+}
+
+.booking-modal-close {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 50%;
+    background: var(--color-surface-green);
+    color: var(--color-dark-green);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.booking-modal-close:hover {
+    background: var(--color-surface-green-border);
+}
+
+.booking-modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4) var(--space-4);
+    border-top: 1px solid var(--color-surface-green-border);
+    flex-shrink: 0;
+}
+
+.booking-modal-footer .btn-primary {
+    width: auto;
+    flex: 1;
+    padding-block: 12px;
+}
+
+/* ============================================================
+   Date picker modal
+   ============================================================ */
+
+.booking-date-modal-dialog {
+    width: min(680px, 100%);
+}
+
+.booking-date-modal-body {
+    overflow-y: auto;
+    padding: var(--space-4);
+}
+
+.booking-date-modal-calendar {
+    display: flex;
+    justify-content: center;
+}
+
+.booking-date-clear:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+.booking-date-continue:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Hotel Datepicker theme overrides — line the library's palette up
+   with the site's green/blue theme instead of its default blue. */
+
+.datepicker {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.datepicker__months {
+    justify-content: space-between;
+}
+
+/* In-range days (idle hover, the days between checkin and the cursor
+   while picking checkout, and the finalized range once both dates are
+   set) all share one clearly-visible light green. A solid fill is used
+   instead of a translucent one — layered on the modal's white
+   background, the accent-green alpha wash used previously came out
+   too close to white to read as a highlight. Color is always set
+   alongside background so light-on-light text can't come back either. */
+.datepicker__month-day--valid:hover,
+.datepicker__month-day--hovering,
+.datepicker__month-day--selected {
+    background-color: #cdeed1 !important;
+    color: var(--color-dark-green) !important;
+}
+
+/* Today gets a subtle outline instead of the library's solid black
+   fill, so it doesn't fight the range highlight above. Declared
+   before the endpoint rule below so a selected checkin/checkout that
+   happens to be today still renders as a solid endpoint. */
+.datepicker__month-day--today {
+    background-color: transparent !important;
+    color: var(--color-dark-green) !important;
+    font-weight: 700;
+    box-shadow: inset 0 0 0 1px var(--color-dark-green);
+}
+
+/* Range endpoints: solid dark green, always wins over both states
+   above. */
+.datepicker__month-day--first-day-selected,
+.datepicker__month-day--last-day-selected {
+    background-color: var(--color-dark-green) !important;
+    color: var(--color-white) !important;
+}
+
+.datepicker__month-button,
+.datepicker__close-button,
+.datepicker__clear-button {
+    color: var(--color-dark-green) !important;
+}
+
+.datepicker__info--selected-label,
+.datepicker__info-text {
+    color: var(--color-dark-green) !important;
+}
+
+.datepicker__info--help {
+    color: var(--color-text-muted) !important;
+}
+
+.datepicker__info--error {
+    color: #c0392b !important;
+}
+
+/* ============================================================
+   Guests modal
+   ============================================================ */
+
+.guests-modal-body {
+    padding: var(--space-2) var(--space-4);
+}
+
+.guests-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    padding: var(--space-4) 0;
+}
+
+.guests-row + .guests-row {
+    border-top: 1px solid var(--color-surface-green-border);
+}
+
+.guests-row-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.guests-row-label {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--color-dark-green);
+}
+
+.guests-row-hint {
+    font-size: 12px;
+    color: var(--color-text-muted);
+}
+
+.guests-stepper {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-shrink: 0;
+}
+
+.guests-stepper-btn {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 8px;
+    background: var(--color-dark-green);
+    color: var(--color-white);
+    font-size: 12px;
+    cursor: pointer;
+    transition:
+        filter 0.15s ease,
+        opacity 0.15s ease;
+}
+
+.guests-stepper-btn:hover:not(:disabled) {
+    filter: brightness(1.15);
+}
+
+.guests-stepper-btn:disabled {
+    background: var(--color-surface-green-border);
+    color: var(--color-text-muted);
+    cursor: not-allowed;
+}
+
+.guests-stepper-value {
+    min-width: 18px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--color-dark-green);
+}
+
+@media (max-width: 640px) {
+    .booking-date-modal-dialog {
+        width: 100%;
+    }
+
+    .booking-date-modal-body {
+        padding: var(--space-2);
+    }
+}

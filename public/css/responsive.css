@@ -363,3 +363,72 @@
         padding: var(--space-4);
     }
 }
+
+@media (max-width: 1024px) {
+    .nearby-properties-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .nearby-properties-map {
+        position: static;
+        min-height: 240px;
+    }
+}
+
+/* Tablet only (mobile hides the map entirely below) — put the map above
+   the property grid instead of below it. */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .nearby-properties-map {
+        order: -1;
+        margin-bottom: var(--space-4);
+    }
+}
+
+@media (max-width: 767px) {
+    .nearby-properties-header {
+        flex-direction: column;
+    }
+
+    /* No room for a useful map on mobile — the card carousel below
+       covers the same properties. */
+    .nearby-properties-map {
+        display: none;
+    }
+
+    .nearby-properties-layout {
+        grid-template-columns: 1fr;
+    }
+
+    /* Grid becomes a one-card-at-a-time swipe carousel, matching the
+       4-item mobile fetch limit — the dots below mirror that count. */
+    .nearby-properties-grid {
+        display: flex;
+        grid-template-columns: none;
+        gap: var(--space-4);
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        margin-inline: calc(-1 * var(--container-padding));
+        padding-inline: var(--container-padding);
+        padding-bottom: var(--space-2);
+    }
+
+    .nearby-properties-grid::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nearby-properties-grid .property-card {
+        flex: 0 0 85%;
+        scroll-snap-align: start;
+    }
+
+    .nearby-properties-dots {
+        display: flex;
+    }
+}
+
+@media (max-width: 500px) {
+    .nearby-filter-btn {
+        display: none;
+    }
+}

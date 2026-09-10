@@ -10,7 +10,7 @@ main section {
 /* ============ Main content / booking sidebar two-column layout ============ */
 
 .page-layout {
-    gap: var(--space-8);
+    gap: var(--space-4);
     align-items: flex-start;
 }
 
