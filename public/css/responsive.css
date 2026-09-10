@@ -143,6 +143,74 @@
         grid-template-columns: 1fr;
         gap: var(--space-4);
     }
+
+    .weather-title,
+    .weather-description {
+        text-align: center;
+    }
+
+    .weather-bar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: var(--space-4);
+        padding: var(--space-6) var(--space-4);
+    }
+
+    .weather-today {
+        align-items: center;
+        padding-right: 0;
+        padding-bottom: var(--space-4);
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .weather-today-current {
+        display: flex;
+        justify-content: center;
+    }
+
+    .weather-forecast {
+        justify-content: space-between;
+        gap: var(--space-2);
+    }
+
+    .weather-forecast-day:first-child {
+        display: none;
+    }
+
+    .weather-patterns {
+        padding: var(--space-6) var(--space-4);
+    }
+
+    .weather-patterns-title {
+        font-size: 15px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .weather-seasons {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: var(--space-4);
+        scrollbar-width: none;
+    }
+
+    .weather-seasons::-webkit-scrollbar {
+        display: none;
+    }
+
+    .weather-season {
+        flex: 0 0 100%;
+        scroll-snap-align: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .weather-dots {
+        display: flex;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -194,6 +262,24 @@
 
     .feature-card {
         padding: var(--space-4);
+    }
+
+    .weather-bar {
+        gap: var(--space-6);
+        padding: var(--space-4) var(--space-6);
+    }
+
+    .weather-today {
+        padding-right: var(--space-6);
+    }
+
+    .weather-patterns {
+        padding: var(--space-6);
+    }
+
+    .weather-seasons {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: var(--space-6) var(--space-4);
     }
 }
 
@@ -250,6 +336,30 @@
     }
 
     .feature-card {
+        padding: var(--space-4);
+    }
+
+    .weather-bar {
+        padding: var(--space-4);
+    }
+
+    .weather-forecast {
+        gap: var(--space-1);
+    }
+
+    .weather-forecast-day {
+        font-size: 10px;
+    }
+
+    .weather-forecast-day i {
+        font-size: 18px;
+    }
+
+    .weather-day-temp {
+        white-space: normal;
+    }
+
+    .weather-patterns {
         padding: var(--space-4);
     }
 }
