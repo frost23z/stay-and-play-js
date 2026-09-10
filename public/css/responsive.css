@@ -1,3 +1,39 @@
+@media (max-width: 1024px) {
+    .promo {
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo-card {
+        align-items: center;
+        text-align: center;
+    }
+
+    .promo-header {
+        justify-content: center;
+    }
+
+    .promo-details {
+        justify-content: center;
+        border: none;
+        padding: 0;
+    }
+
+    .promo-stat-extra,
+    .promo-divider {
+        display: none;
+    }
+
+    .promo-btn-text-full {
+        display: none;
+    }
+
+    .promo-btn-text-short {
+        display: inline;
+    }
+}
+
 @media (max-width: 500px) {
     .club-meta-divider {
         display: none;

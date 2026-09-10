@@ -51,3 +51,131 @@
     letter-spacing: 0.02em;
     white-space: nowrap;
 }
+
+/* ============ Promo section (mobile/tablet only) ============ */
+
+.promo {
+    display: none;
+    gap: var(--space-4);
+}
+
+.promo-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    padding: var(--space-4);
+    border: 1px solid var(--color-surface-green-border);
+    border-radius: var(--radius-md);
+    background-color: var(--color-white);
+}
+
+.promo-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.promo-icon {
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 15px;
+}
+
+.promo-icon-stay {
+    background-color: var(--color-blue);
+}
+
+.promo-icon-play {
+    background-color: var(--color-accent-green);
+}
+
+.promo-title {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.promo-title-stay {
+    color: var(--color-blue);
+}
+
+.promo-title-play {
+    color: var(--color-accent-green);
+}
+
+.promo-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--space-3);
+    flex: 1;
+}
+
+.promo-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    border: 1px solid var(--color-surface-green-border);
+    border-radius: var(--radius-sm);
+    padding: var(--space-3) var(--space-4);
+}
+
+.promo-divider {
+    align-self: stretch;
+    width: 1px;
+    background-color: var(--color-surface-green-border);
+}
+
+.promo-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.promo-btn-text-short {
+    display: none;
+}
+
+.promo-stat strong {
+    font-size: 22px;
+    font-weight: 800;
+    color: #23291f;
+}
+
+.promo-stat span {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #7d7f84;
+}
+
+.promo-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #7d7f84;
+}
+
+.promo-btn-stay,
+.promo-btn-play {
+    width: 100%;
+    flex: none;
+    margin-top: auto;
+}
+
+.promo-btn-stay {
+    background-color: var(--color-blue);
+    color: #052a33;
+}
+
+.promo-btn-play {
+    background-color: var(--color-accent-green);
+    color: #10240f;
+}

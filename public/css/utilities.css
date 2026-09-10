@@ -6,8 +6,8 @@
     align-items: center;
 }
 
-.gap-3 {
-    gap: var(--space-3);
+.justify-center {
+    justify-content: center;
 }
 
 .visually-hidden {
