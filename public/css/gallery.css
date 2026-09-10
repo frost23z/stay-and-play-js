@@ -115,6 +115,35 @@
     font-weight: 700;
 }
 
+/* Prev/next arrows — tablet only. Phones rely on swipe; desktop has the
+   side thumbnails + modal instead. */
+.gallery-nav-btn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(10, 18, 12, 0.55);
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gallery-nav-btn:hover {
+    background: rgba(10, 18, 12, 0.8);
+}
+
+.gallery-nav-prev {
+    left: var(--space-3);
+}
+
+.gallery-nav-next {
+    right: var(--space-3);
+}
+
 @media (max-width: 1024px) {
     .gallery {
         grid-template-columns: 1fr;
@@ -141,6 +170,13 @@
 
     .photo-side {
         display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .gallery-nav-btn {
+        display: grid;
+        place-items: center;
     }
 }
 

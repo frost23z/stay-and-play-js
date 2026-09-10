@@ -34,6 +34,7 @@ export async function initGallery() {
     updateImageCounts(els, images.length)
     setPreviewIndex(0)
     setupPreviewSwipe()
+    setupPreviewArrows()
     setupModalControls()
 
     // ---- preview -------------------------------------------------------
@@ -65,6 +66,11 @@ export async function initGallery() {
             onSwipeLeft: () => setPreviewIndex(previewIndex + 1),
             onSwipeRight: () => setPreviewIndex(previewIndex - 1),
         })
+    }
+
+    function setupPreviewArrows() {
+        els.prevBtn?.addEventListener('click', () => setPreviewIndex(previewIndex - 1))
+        els.nextBtn?.addEventListener('click', () => setPreviewIndex(previewIndex + 1))
     }
 
     // ---- modal (desktop only: full scrollable photo list) ----------------
@@ -124,6 +130,8 @@ function getElements() {
         photoFrame: document.getElementById('galleryPhotoFrame'),
         previewDots: document.getElementById('galleryPreviewDots'),
         previewCounter: document.getElementById('galleryPreviewCounter'),
+        prevBtn: document.getElementById('galleryPrevBtn'),
+        nextBtn: document.getElementById('galleryNextBtn'),
         openTriggers: Array.from(document.querySelectorAll('[data-gallery-open]')),
         closeTriggers: Array.from(document.querySelectorAll('[data-gallery-close]')),
         modal: document.getElementById('galleryModal'),
